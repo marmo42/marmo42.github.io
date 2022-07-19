@@ -1,0 +1,17 @@
+@tailwind base;
+
+@layer base {
+  @font-face {
+    font-family: 'Biotif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('~assets/fonts/Biotif-400.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Bogart';
+    font-style: medium;
+    font-weight: 100;
+    src: url('~assets/fonts/Bogart-500.ttf') format('truetype');
+  }
+}
