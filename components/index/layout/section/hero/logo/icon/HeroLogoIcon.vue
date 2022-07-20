@@ -1,5 +1,5 @@
 <template>
-  <Icon size="275px" name="brands/maple" v-anime="translate"/>
+  <Icon size="275px" name="brands/marmo" v-anime="translate"/>
 </template>
 
 <script>

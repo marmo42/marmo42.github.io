@@ -24,7 +24,7 @@ module.exports = {
           pale: '#e2e8ff',
         },
         'pink': '#ffc4ff',
-        'maple-blue': '#4066f6',
+        'marmo-pink': '#fa005a',
       },
       fontFamily: {
         'sans': ['Biotif', 'sans-serif'],

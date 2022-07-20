@@ -8,7 +8,7 @@
 <script>
 export default {
   head: {
-    title: 'Maple | Download'
+    title: 'Marmo | Work'
   }
 }
 </script>

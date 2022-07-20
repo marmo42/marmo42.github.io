@@ -8,7 +8,7 @@
 <script>
 export default {
   head: {
-    title: 'Maple | About'
+    title: 'Marmo | About'
   }
 }
 </script>

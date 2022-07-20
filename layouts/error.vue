@@ -9,7 +9,7 @@
 export default {
   props: ['error'],
   head: {
-    title: 'Maple | Page not found'
+    title: 'Marmo | Page not found'
   }
 }
 </script>
