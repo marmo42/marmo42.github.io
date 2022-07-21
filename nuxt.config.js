@@ -43,7 +43,6 @@ export default {
       '~/components/global/text',
       '~/components/global/text/sans',
       '~/components/global/text/serif',
-      '~/components/global/text/serif/title',
       '~/components/global/link',
       '~/components/global/icon',
       '~/components/global/video',

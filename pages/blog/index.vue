@@ -1,8 +1,6 @@
 <template>
   <PageContainer>
-    <ArticlesSection v-for="article of articles" :key="article.slug">
-      <ArticleItem :article="article"/>
-    </ArticlesSection>
+    <ArticlesSection :articles="articles"/>
   </PageContainer>
 </template>
 
@@ -11,7 +9,7 @@ export default {
   head: {
     title: 'Marmo | Blog'
   },
-  async asyncData({ params, $content }) {
+  async asyncData({ $content }) {
     const articles = await $content('articles').sortBy('date').fetch()
 
     return {

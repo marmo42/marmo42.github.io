@@ -1,5 +1,5 @@
 <template>
-  <SerifTitle class="text-[45px]">
+  <SerifText class="font-medium text-white text-[45px] tracking-[-1px]">
     <slot></slot>
-  </SerifTitle>
+  </SerifText>
 </template>
