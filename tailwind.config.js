@@ -27,7 +27,7 @@ module.exports = {
         'marmo-pink': '#fa005a',
       },
       fontFamily: {
-        'sans': ['Biotif', 'sans-serif'],
+        'sans': ['Whitney', 'sans-serif'],
         'serif': ['Bogart', 'sans-serif'],
       },
     },

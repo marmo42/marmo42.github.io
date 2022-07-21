@@ -1,6 +1,6 @@
 <template>
-  <PageLink class="w-min h-full px-[40.2px] flex items-center" :to="link" external>
-    <Icon class="pb-[3px]" size="18px" :name="icon"/>
+  <PageLink class="h-full pl-[40.2px] flex items-center" :to="link" external>
+    <Icon size="20px" :name="icon"/>
   </PageLink>
 </template>
 
