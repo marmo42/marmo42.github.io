@@ -1,7 +1,7 @@
 <template>
   <PageContainer>
-    <FullScreenContentSection></FullScreenContentSection>
-    <FullScreenContentSection></FullScreenContentSection>
+    <FullScreenSection></FullScreenSection>
+    <FullScreenSection></FullScreenSection>
   </PageContainer>
 </template>
 
