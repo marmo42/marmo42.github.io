@@ -11,6 +11,13 @@
   @font-face {
     font-family: 'Whitney';
     font-style: normal;
+    font-weight: 400;
+    src: url('~assets/fonts/Whitney-400.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Whitney';
+    font-style: normal;
     font-weight: 600;
     src: url('~assets/fonts/Whitney-600.otf') format('opentype');
   }

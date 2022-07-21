@@ -10,7 +10,7 @@
 <script>
 export default {
   props: {
-    to: String,
+    to: [String, Object],
     external: Boolean
   }
 }

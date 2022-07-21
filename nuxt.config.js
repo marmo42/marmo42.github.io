@@ -41,6 +41,7 @@ export default {
       '~/components/global/layout/section',
       '~/components/global/layout/section/content',
       '~/components/global/text',
+      '~/components/global/text/sans',
       '~/components/global/text/serif',
       '~/components/global/text/serif/title',
       '~/components/global/link',
@@ -48,7 +49,10 @@ export default {
       '~/components/global/video',
       '~/components/index',
       '~/components/index/layout',
-      '~/components/index/layout/section'
+      '~/components/index/layout/section',
+      '~/components/blog',
+      '~/components/blog/layout',
+      '~/components/blog/layout/section'
     ]
   },
 

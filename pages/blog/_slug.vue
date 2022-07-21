@@ -1,17 +1,19 @@
 <template>
   <PageContainer>
-    <h1>{{ article.title }}</h1>
+    <HeaderSection :title="article.title" :subtitle="article.description"/>
     <nuxt-content :document="article"/>
   </PageContainer>
 </template>
 
 <script>
 export default {
-  head: {
-    title: 'Marmo | Blog | TITLE'
+  head() {
+    return {
+      title: this.article.title
+    }
   },
-  async asyncData({ $content }) {
-    const article = await $content('articles/my-first-blog-post').fetch()
+  async asyncData({ params, $content }) {
+    const article = await $content('articles', params.slug).fetch()
 
     return {
       article
