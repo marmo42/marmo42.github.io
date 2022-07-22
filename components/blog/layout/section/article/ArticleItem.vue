@@ -1,5 +1,5 @@
 <template>
-  <PageLink class="w-1/2 h-full px-[16px] pb-[72px] flex flex-col" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+  <PageLink class="px-[16px] flex flex-col" :style="style" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
     <ArticleItemCover :article="article"/>
     <ArticleItemText :article="article"/>
   </PageLink>
@@ -8,7 +8,19 @@
 <script>
 export default {
   props: {
-    article: Object
+    article: Object,
+    prominent: Boolean
+  },
+  computed: {
+    style() {
+      var width = this.prominent ? '100%' : '50%';
+      var marginBottom = this.prominent ? '128px' : '72px';
+
+      return {
+        'width': width,
+        'margin-bottom': marginBottom
+      }
+    }
   }
 }
 </script>
