@@ -40,6 +40,8 @@ export default {
       '~/components/global/layout',
       '~/components/global/layout/section',
       '~/components/global/layout/section/content',
+      '~/components/global/layout/section/header',
+      '~/components/global/layout/section/header/title',
       '~/components/global/text',
       '~/components/global/text/sans',
       '~/components/global/text/serif',

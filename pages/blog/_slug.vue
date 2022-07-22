@@ -1,6 +1,6 @@
 <template>
   <PageContainer>
-    <HeaderSection :title="article.title" :subtitle="article.description"/>
+    <TitledHeaderSection :title="article.title" :subtitle="article.description"/>
     <nuxt-content :document="article"/>
   </PageContainer>
 </template>
