@@ -9,7 +9,7 @@ export default {
   },
   computed: {
     path() {
-      return this.article.path + '/cover.jpg'
+      return '/content' + this.article.path + '/cover.jpg'
     }
   }
 }
