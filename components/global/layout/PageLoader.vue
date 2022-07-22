@@ -1,5 +1,5 @@
 <template>
-  <div v-if="loading" class="absolute z-10 w-full h-[200vh] bg-gray-dark flex flex-col items-center">
+  <div v-if="loading" class="absolute z-10 w-full h-full bg-gray-dark flex items-center justify-center">
     <LoaderIcon/>
   </div>
 </template>
