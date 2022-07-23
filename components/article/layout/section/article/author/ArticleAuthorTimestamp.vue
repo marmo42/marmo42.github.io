@@ -1,5 +1,5 @@
 <template>
-  <TransparentSansText class="font-medium text-white text-[16px]" opacity="0.7">N/A</TransparentSansText>
+  <TransparentSansText class="font-medium text-white text-[16px]" opacity="0.7">{{ formattedTimestamp }}</TransparentSansText>
 </template>
 
 <script>
@@ -9,7 +9,9 @@ export default {
   },
   computed: {
     formattedTimestamp() {
-      return this.timestamp
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+
+      return new Date(this.timestamp).toLocaleDateString('en', options)
     }
   }
 }

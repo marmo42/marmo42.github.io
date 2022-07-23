@@ -8,7 +8,7 @@
 export default {
   props: {
     opacity: {
-      type: Number,
+      type: [String, Number],
       default: 0.8
     }
   },
