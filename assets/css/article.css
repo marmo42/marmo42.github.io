@@ -14,6 +14,7 @@
     @apply font-normal;
     @apply text-[22px];
     @apply leading-[33px];
+    @apply opacity-80;
   }
 
   .nuxt-content h1, h2, h3 {
