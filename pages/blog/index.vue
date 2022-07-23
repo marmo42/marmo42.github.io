@@ -1,6 +1,6 @@
 <template>
   <PageContainer>
-    <HeaderSection class="absolute -z-10 h-[500px]"/>
+    <EmptyHeaderSection/>
     <ArticlesSection :articles="articles"/>
   </PageContainer>
 </template>

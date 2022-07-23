@@ -1,6 +1,7 @@
 <template>
   <PageContainer>
-    <TitledHeaderSection :title="article.title" :subtitle="article.description"/>
+    <EmptyHeaderSection/>
+    <ArticlesSection :articles="[article]"/>
     <ArticleSection :article="article"/>
   </PageContainer>
 </template>
