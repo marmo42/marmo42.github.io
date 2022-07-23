@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+  .nuxt-content {
+    @apply font-sans;
+    @apply text-white;
+  }
+
+  .nuxt-content p {
+    @apply mb-6;
+    @apply font-normal;
+  }
+}

@@ -1,7 +1,7 @@
 <template>
   <PageContainer>
     <TitledHeaderSection :title="article.title" :subtitle="article.description"/>
-    <nuxt-content :document="article"/>
+    <ArticleSection :article="article"/>
   </PageContainer>
 </template>
 

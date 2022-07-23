@@ -26,6 +26,7 @@ export default {
   css: [
     '@/assets/css/main.css',
     '@/assets/css/fonts.css',
+    '@/assets/css/article.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -53,7 +54,12 @@ export default {
       '~/components/index/layout/section',
       '~/components/blog',
       '~/components/blog/layout',
-      '~/components/blog/layout/section'
+      '~/components/blog/layout/section',
+      '~/components/article',
+      '~/components/article/layout',
+      '~/components/article/layout/section',
+      '~/components/article/layout/section/article',
+      '~/components/article/layout/section/article/author'
     ]
   },
 
