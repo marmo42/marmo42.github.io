@@ -1,7 +1,7 @@
 <template>
-  <ContentSection class="pt-[135px] flex">
+  <ContentSection class="px-5 flex">
     <ArticleAuthor :author="article.author" :timestamp="article.createdAt"/>
-    <nuxt-content class="min-w-full" :document="article"/>
+    <ArticleContent :article="article"/>
   </ContentSection>
 </template>
 

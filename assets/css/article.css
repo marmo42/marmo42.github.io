@@ -9,5 +9,7 @@
   .nuxt-content p {
     @apply mb-6;
     @apply font-normal;
+    @apply text-[22px];
+    @apply leading-[33px];
   }
 }
