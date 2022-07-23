@@ -3,6 +3,7 @@
 @layer components {
   .nuxt-content {
     @apply font-sans;
+    @apply font-normal;
     @apply text-white;
   }
 
@@ -11,7 +12,6 @@
   }
 
   .nuxt-content p {
-    @apply font-normal;
     @apply text-[22px];
     @apply leading-[33px];
     @apply opacity-80;
