@@ -1,7 +1,7 @@
 <template>
   <PageContainer>
     <HeroSection/>
-    <ArticleListSection :articles="articles" noProminence/>
+    <ArticleListSection class="mt-32" :articles="articles" noProminence/>
   </PageContainer>
 </template>
 
