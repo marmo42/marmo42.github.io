@@ -1,5 +1,5 @@
 <template>
-  <HeaderSection :title="title" :subtitle="subtitle" noBackground>
+  <HeaderSection noBackground>
     <HeroLogo/>
     <HeroTitle>{{ title }}</HeroTitle>
     <HeaderSubtitle>{{ subtitle }}</HeaderSubtitle>
