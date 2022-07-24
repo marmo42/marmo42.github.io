@@ -1,5 +1,5 @@
 <template>
-  <SansText class="max-w-[580px] mt-[1.3em] text-white text-[20.8px] leading-[170%]">
+  <TransparentSansText class="mt-[1.3em] font-semibold text-center text-white text-[20px] leading-[170%]">
     <slot></slot>
-  </SansText>
+  </TransparentSansText>
 </template>

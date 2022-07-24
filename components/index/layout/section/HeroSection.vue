@@ -1,6 +1,5 @@
 <template>
-  <ContentSection class="pt-[235px] flex items-center">
-    <HeroText/>
+  <TitledHeaderSection title="Hi. I’m Seán." subtitle="I’m also a front-end developer and general doodler with a keen eye for creating engaging UI, bringing products to life.">
     <HeroLogo/>
-  </ContentSection>
+  </TitledHeaderSection>
 </template>

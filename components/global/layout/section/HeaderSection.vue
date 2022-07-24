@@ -1,6 +1,8 @@
 <template>
   <PageSection class="w-full pt-56 pb-40 fade-background flex items-center justify-center">
-    <slot></slot>
+    <div class="max-w-[700px] flex flex-col items-center">
+      <slot></slot>
+    </div>
   </PageSection>
 </template>
 
