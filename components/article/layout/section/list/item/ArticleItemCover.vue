@@ -1,5 +1,5 @@
 <template>
-  <img class="mb-[25px] rounded-lg" :src="path"/>
+  <img :src="path"/>
 </template>
 
 <script>

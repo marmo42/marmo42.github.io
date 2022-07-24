@@ -1,7 +1,7 @@
 <template>
   <PageContainer>
     <EmptyHeaderSection/>
-    <ArticleListSection :articles="[article]"/>
+    <ArticleListSection class="mt-56" :articles="[article]"/>
     <ArticleSection :article="article"/>
   </PageContainer>
 </template>
