@@ -1,15 +1,5 @@
 <template>
-  <div class="opacity-0" v-anime="animation">
+  <BounceInAnimation>
     <slot></slot>
-  </div>
+  </BounceInAnimation>
 </template>
-
-<script>
-  import { bounceIn } from '@/static/constants/animations';
-
-  export default {
-    created() {
-      this.animation = bounceIn;
-    }
-  }
-</script>

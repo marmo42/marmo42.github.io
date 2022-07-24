@@ -38,6 +38,7 @@ export default {
     dirs: [
       '~/components',
       '~/components/global',
+      '~/components/global/animation',
       '~/components/global/text',
       '~/components/global/text/sans',
       '~/components/global/text/serif',
