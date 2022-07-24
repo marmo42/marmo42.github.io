@@ -1,3 +1,3 @@
 <template>
-  <Icon class="" size="275px" name="brands/marmo"/>
+  <Icon class="mb-5" size="275px" name="brands/marmo"/>
 </template>
