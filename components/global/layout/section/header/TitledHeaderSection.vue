@@ -1,7 +1,5 @@
 <template>
-  <HeaderSection :noBackground="noBackground">
-    <slot></slot>
-
+  <HeaderSection>
     <HeaderTitle>{{ title }}</HeaderTitle>
     <HeaderSubtitle>{{ subtitle }}</HeaderSubtitle>
   </HeaderSection>
@@ -11,8 +9,7 @@
 export default {
   props: {
     title: String,
-    subtitle: String,
-    noBackground: Boolean
+    subtitle: String
   }
 }
 </script>

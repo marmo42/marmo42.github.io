@@ -1,7 +1,9 @@
 <template>
-  <TitledHeaderSection :title="title" :subtitle="subtitle" noBackground>
+  <HeaderSection :title="title" :subtitle="subtitle" noBackground>
     <HeroLogo/>
-  </TitledHeaderSection>
+    <HeroTitle>{{ title }}</HeroTitle>
+    <HeaderSubtitle>{{ subtitle }}</HeaderSubtitle>
+  </HeaderSection>
 </template>
 
 <script>
