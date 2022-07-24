@@ -14,7 +14,7 @@ export default {
     }
   },
   async asyncData({ params, $content }) {
-    const article = await $content('articles', params.slug).fetch()
+    const article = await $content('articles/posts', params.slug).fetch()
 
     return {
       article

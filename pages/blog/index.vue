@@ -11,7 +11,7 @@ export default {
     title: 'Marmo | Blog'
   },
   async asyncData({ $content }) {
-    const articles = await $content('articles').sortBy('date').fetch()
+    const articles = await $content('articles/posts').sortBy('date').fetch()
 
     return {
       articles
