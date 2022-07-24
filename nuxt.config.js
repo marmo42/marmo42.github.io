@@ -52,14 +52,14 @@ export default {
       '~/components/index',
       '~/components/index/layout',
       '~/components/index/layout/section',
-      '~/components/blog',
-      '~/components/blog/layout',
-      '~/components/blog/layout/section',
       '~/components/article',
       '~/components/article/layout',
       '~/components/article/layout/section',
-      '~/components/article/layout/section/article',
-      '~/components/article/layout/section/article/author'
+      '~/components/article/layout/section/content',
+      '~/components/article/layout/section/content/author',
+      '~/components/article/layout/section/list',
+      '~/components/article/layout/section/list/item',
+      '~/components/article/layout/section/list/item/text'
     ]
   },
 
