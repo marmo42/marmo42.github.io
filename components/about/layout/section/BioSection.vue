@@ -3,8 +3,8 @@
     <div class="flex flex-row">
       <BioPicture/>
       <BioText>
-        <BioTitle>I’m Seán, a Product Designer working remotely for Help Scout on their mobile products in sunny Dublin, Ireland.</BioTitle>
-        <BioDescription>I’ve spent the past 12+ years working across different areas of digital design; front-end development, email design, marketing site pages, app UI/UX, to my current role designing products for mobile platforms.</BioDescription>
+        <BioTitle>{{ title }}</BioTitle>
+        <BioDescription v-for="line in description" :key="line">{{ line }}</BioDescription>
       </BioText>
     </div>
   </HeaderSection>
@@ -14,8 +14,12 @@
 export default {
   data() {
     return {
-      title: "Hello there!",
-      subtitle: "I’m also a front-end developer and general doodler with a keen eye for creating engaging UI, bringing products to life."
+      title: 'I’m Seán, a Product Designer working remotely for Help Scout on their mobile products in sunny Dublin, Ireland.',
+      description: [
+        'I’ve spent the past 12+ years working across different areas of digital design; front-end development, email design, marketing site pages, app UI/UX, to my current role designing products for mobile platforms.',
+        'These days my time is spent researching, designing, prototyping, and coding. I also help designers get started with their careers.',
+        'Out of the office you’ll find me dreaming of soccer, playing bass guitar, and petting all the good dogs.'
+      ]
     }
   },
 }
