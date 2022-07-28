@@ -1,0 +1,39 @@
+@tailwind components;
+
+@layer components {
+  .nuxt-content {
+    @apply font-sans;
+    @apply font-normal;
+    @apply text-white;
+  }
+
+  .nuxt-content * {
+    @apply mb-6;
+  }
+
+  .nuxt-content p {
+    @apply text-[22px];
+    @apply leading-[33px];
+    @apply opacity-80;
+  }
+
+  .nuxt-content h1, h2, h3 {
+    @apply font-bold;
+  }
+
+  .nuxt-content h1 {
+    @apply my-10;
+    @apply text-[38px];
+    @apply leading-[44px];
+  }
+
+  .nuxt-content h2 {
+    @apply text-[32px];
+    @apply leading-[36px];
+  }
+
+  .nuxt-content h3 {
+    @apply text-[24px];
+    @apply leading-[30px];
+  }
+}
