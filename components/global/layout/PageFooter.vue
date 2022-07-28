@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full mt-52 bg-gray flex justify-center">
-    <div class="w-[1080px] h-[200px] flex flex-col">
+  <div class="w-full mt-52 pt-20 pb-16 bg-gray flex justify-center">
+    <div class="w-[1180px] flex justify-between">
       
     </div>
   </div>
