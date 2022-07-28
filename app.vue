@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <PageContainer>
+    <PageHeader/>
+    <slot></slot>
+    <PageFooter/>
+  </PageContainer>
 </template>
 
 <script setup>
