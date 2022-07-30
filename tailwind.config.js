@@ -11,11 +11,14 @@ module.exports = {
     extend: {
       colors: {
         'black': '#000',
-        'white': '#fff',
+        'white': {
+          DEFAULT: '#fff',
+          pale: '#fefaf6'
+        },
         'gray': {
           DEFAULT: '#191919',
           dark: '#111111',
-          light: '',
+          light: '#232320',
         },
         'blue': {
           DEFAULT: '',
