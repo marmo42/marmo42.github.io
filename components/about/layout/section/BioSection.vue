@@ -2,10 +2,7 @@
   <HeaderSection maxWidth="1200px" noBackground>
     <div class="flex flex-row">
       <BioPicture/>
-      <BioText>
-        <BioTitle>{{ title }}</BioTitle>
-        <BioDescription v-for="line in description" :key="line">{{ line }}</BioDescription>
-      </BioText>
+      <BioText :title="title" :description="description"/>
     </div>
   </HeaderSection>
 </template>
