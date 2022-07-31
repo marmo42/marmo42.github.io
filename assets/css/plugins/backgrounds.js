@@ -3,7 +3,6 @@ const plugin = require('tailwindcss/plugin')
 module.exports = plugin(function({ addUtilities }) {
   addUtilities({
     '.blurry-background': {
-      'background': 'hsla(0, 0%, 100%, 0)',
       'backdrop-filter': 'blur(80px)'
     },
     
