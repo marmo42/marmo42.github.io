@@ -2,7 +2,6 @@
 
 @layer utilities {
   .default-icon-color {
-    @apply bg-gray-light;
-    @apply dark:bg-white;
+    @apply bg-gray-light dark:bg-white;
   }
 }
