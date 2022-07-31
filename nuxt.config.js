@@ -25,7 +25,6 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/main.css',
-    '@/assets/css/fonts.css',
     '@/assets/css/utilities/colors/text_colors.css',
     '@/assets/css/utilities/colors/icon_colors.css',
     '@/assets/css/article.css'

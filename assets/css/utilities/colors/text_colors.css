@@ -2,7 +2,7 @@
 
 @layer utilities {
   .rainbow-text-color {
-    /* @apply rainbow-background; */
+    @apply rainbow-background;
     @apply text-transparent;
     background-clip: text;
   }
