@@ -1,3 +1,3 @@
 <template>
-  <div class="w-full mt-52"></div>
+  <div class="w-full mt-60"></div>
 </template>
