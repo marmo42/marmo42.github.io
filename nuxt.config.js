@@ -26,8 +26,7 @@ export default {
   css: [
     '@/assets/css/main.css',
     '@/assets/css/utilities/colors/text_colors.css',
-    '@/assets/css/utilities/colors/icon_colors.css',
-    '@/assets/css/article.css'
+    '@/assets/css/utilities/colors/icon_colors.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
