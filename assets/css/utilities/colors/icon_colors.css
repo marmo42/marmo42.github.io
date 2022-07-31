@@ -1,7 +1,0 @@
-@tailwind utilities;
-
-@layer utilities {
-  .default-icon-color {
-    @apply bg-gray-light dark:bg-white;
-  }
-}

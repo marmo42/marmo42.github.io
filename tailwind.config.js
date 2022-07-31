@@ -12,6 +12,8 @@ module.exports = {
 
   plugins: [
     require('./assets/css/plugins/colors'),
+    require('./assets/css/plugins/colors/text_colors'),
+    require('./assets/css/plugins/colors/icon_colors'),
     require('./assets/css/plugins/fonts'),
     require('./assets/css/plugins/typography'),
     require('./assets/css/plugins/backgrounds'),
