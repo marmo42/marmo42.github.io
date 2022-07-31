@@ -4,7 +4,6 @@
   .nuxt-content {
     @apply font-sans;
     @apply font-normal;
-    @apply text-white;
   }
 
   .nuxt-content * {
@@ -14,11 +13,12 @@
   .nuxt-content p {
     @apply text-[22px];
     @apply leading-[33px];
-    @apply opacity-80;
+    /* @apply paragraph-text-color; */
   }
 
   .nuxt-content h1, h2, h3 {
     @apply font-bold;
+    /* @apply subtitle-text-color; */
   }
 
   .nuxt-content h1 {

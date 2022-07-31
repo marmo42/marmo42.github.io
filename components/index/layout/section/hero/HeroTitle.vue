@@ -1,5 +1,5 @@
 <template>
-  <RainbowSerifText class="font-medium text-center text-[100px] leading-[110%] tracking-[-3px]">
+  <HeaderTitle class="text-[100px]">
     <slot></slot>
-  </RainbowSerifText>
+  </HeaderTitle>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <PageLink class="bg-gray rounded-lg overflow-hidden flex flex-col" :style="style" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+  <PageLink class="bg-gray box-shadow rounded-lg overflow-hidden flex flex-col" :style="style" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
     <ArticleItemCover :article="article"/>
     <ArticleItemText :article="article"/>
   </PageLink>

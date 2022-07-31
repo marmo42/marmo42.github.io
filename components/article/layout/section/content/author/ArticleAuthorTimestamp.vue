@@ -1,5 +1,5 @@
 <template>
-  <TransparentSansText class="font-medium text-white text-[16px]" opacity="0.7">{{ formattedTimestamp }}</TransparentSansText>
+  <span class="font-sans font-medium paragraph-text-color text-[16px]">{{ formattedTimestamp }}</span>
 </template>
 
 <script>

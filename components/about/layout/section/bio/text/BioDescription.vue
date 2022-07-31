@@ -1,5 +1,5 @@
 <template>
-  <TransparentSansText class="mt-9 font-normal text-white text-[20px] leading-[33px]">
+  <span class="mt-9 font-sans font-normal paragraph-text-color text-[20px] leading-[33px]">
     <slot></slot>
-  </TransparentSansText>
+  </span>
 </template>

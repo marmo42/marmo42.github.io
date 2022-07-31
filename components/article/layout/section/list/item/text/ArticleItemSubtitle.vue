@@ -1,5 +1,5 @@
 <template>
-  <TransparentSansText class="font-normal text-white text-[20px] leading-[140%]">
+  <span class="font-sans font-normal paragraph-text-color text-[20px] leading-[140%]">
     <slot></slot>
-  </TransparentSansText>
+  </span>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <SansText class="mt-5 font-medium text-white text-[20px]">{{ author }}</SansText>
+  <span class="mt-5 font-sans font-medium subtitle-text-color text-[20px]">{{ author }}</span>
 </template>
 
 <script>

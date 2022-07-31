@@ -1,5 +1,5 @@
 <template>
-  <img class="w-[72px] h-[72px] rounded-full" :src="path"/>
+  <img class="w-[72px] h-[72px] box-shadow rounded-full" :src="path"/>
 </template>
 
 <script>

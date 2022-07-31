@@ -1,6 +1,6 @@
 <template>
   <PageLink class="w-min h-full px-[20px] flex items-center group" :to="link" :external="externalLink">
-    <SansText class="font-semibold text-gray-light dark:text-white text-[16px] group-hover:underline underline-offset-4">{{ text }}</SansText>
+    <span class="font-sans font-semibold subtitle-text-color text-[16px] group-hover:underline underline-offset-4">{{ text }}</span>
   </PageLink>
 </template>
 

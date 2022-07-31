@@ -19,6 +19,7 @@ module.exports = {
           DEFAULT: '#191919',
           dark: '#111111',
           light: '#232320',
+          lighter: '#656270'
         },
         'blue': {
           DEFAULT: '',
