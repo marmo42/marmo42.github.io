@@ -1,5 +1,5 @@
 <template>
-  <PageLink class="h-full px-[20px] flex items-center" :to="link" external>
+  <PageLink class="px-[20px]" :to="link" external>
     <Icon class="default-icon-color" size="20px" :name="icon"/>
   </PageLink>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <PageLink class="h-full px-[20px] flex items-center" :to="link">
+  <PageLink class="px-[20px]" :to="link">
     <Icon class="default-icon-color" size="31px" name="brands/marmo"/>
   </PageLink>
 </template>
