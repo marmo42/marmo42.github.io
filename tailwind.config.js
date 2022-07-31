@@ -40,5 +40,8 @@ module.exports = {
     },
   },
   
-  plugins: [],
+  plugins: [
+    require('./assets/css/plugins/shadows'),
+    require('./assets/css/plugins/backgrounds')
+  ]
 }

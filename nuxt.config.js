@@ -26,8 +26,6 @@ export default {
   css: [
     '@/assets/css/main.css',
     '@/assets/css/fonts.css',
-    '@/assets/css/utilities/shadows.css',
-    '@/assets/css/utilities/backgrounds.css',
     '@/assets/css/utilities/colors/text_colors.css',
     '@/assets/css/utilities/colors/icon_colors.css',
     '@/assets/css/article.css'
