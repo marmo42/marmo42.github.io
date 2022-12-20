@@ -4,11 +4,11 @@
 
 @layer base {
   body {
-    @apply bg-white-pale dark:bg-gray-dark;
+    @apply bg-black-pale;
   }
 
   ::selection {
-    @apply bg-blue-pale;
-    @apply text-blue-dark;
+    @apply bg-blue-600;
+    @apply text-white;
   }
 }

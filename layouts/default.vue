@@ -1,7 +1,11 @@
 <template>
-  <PageContainer>
-    <PageHeader/>
-    <Nuxt/>
-    <PageFooter/>
-  </PageContainer>
+  <div>
+    <AppHeader/>
+
+    <AppContent>
+      <slot></slot>
+    </AppContent>
+
+    <AppFooter/>
+  </div>
 </template>
