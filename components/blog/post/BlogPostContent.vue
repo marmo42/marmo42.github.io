@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[160px] h-[1000px] bg-white">
-    
+  <div class="bg-white">
+    <ContentDoc/>
   </div>
 </template>
