@@ -1,5 +1,5 @@
 <template>
   <div class="font-yt-sans font-bold">
-    Example Title
+    <slot></slot>
   </div>
 </template>
