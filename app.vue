@@ -1,11 +1,13 @@
 <template>
   <div>
-    <AppHeader/>
+    <NuxtLayout>
+      <AppHeader/>
 
-    <AppContent>
-      <slot></slot>
-    </AppContent>
+      <AppContent>
+        <NuxtPage/>
+      </AppContent>
 
-    <AppFooter/>
+      <AppFooter/>
+    </NuxtLayout>
   </div>
 </template>

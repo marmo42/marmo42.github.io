@@ -12,6 +12,7 @@ module.exports = {
     extend: {}
   },
   plugins: [
-    require('./assets/css/plugins/colors')
+    require('./assets/css/plugins/colors'),
+    require('./assets/css/plugins/fonts')
   ]
 }
