@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     require('./assets/css/plugins/colors'),
-    require('./assets/css/plugins/fonts')
+    require('./assets/css/plugins/fonts'),
+    require('./assets/css/plugins/typography')
   ]
 }
