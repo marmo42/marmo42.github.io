@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-[2000px] flex">
+  <div class="w-full flex">
     <BlogPostSidebar/>
     <BlogPostContent/>
   </div>

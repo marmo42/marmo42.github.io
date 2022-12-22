@@ -1,5 +1,5 @@
 <template>
-  <div class="w-96">
+  <div>
     <ContentDoc class="prose text-white"/>
   </div>
 </template>
