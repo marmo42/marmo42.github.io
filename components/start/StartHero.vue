@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-[600px] flex items-center justify-center">
-    <StartHeroCover/>
+  <div class="w-full h-[750px] flex items-center justify-center">
+    <StartHeroLogo/>
   </div>
 </template>

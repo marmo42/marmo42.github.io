@@ -10,8 +10,9 @@ module.exports = plugin(function({}) {}, {
         },
         'white': {
           DEFAULT: '#fff',
-          pale: '#fefaf6'
-        }
+          pale: '#f1f1f1'
+        },
+        'gray': '#272727'
       }
     }
   }

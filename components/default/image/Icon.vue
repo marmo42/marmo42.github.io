@@ -1,5 +1,5 @@
 <template>
-  <img src="~/assets/images/icons/youtube.svg"/>
+  <img src="~/assets/images/icons/bell.svg"/>
 </template>
 
 <script>
