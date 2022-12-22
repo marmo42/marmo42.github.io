@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-wrap justify-center">
+  <div class="flex flex-wrap justify-center">
     <BlogPostListItem/>
     <BlogPostListItem/>
     <BlogPostListItem/>

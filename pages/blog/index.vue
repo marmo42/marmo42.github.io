@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BlogPostListHeading>All Posts</BlogPostListHeading>
+    <BlogPostListHeading>Highlighted Posts</BlogPostListHeading>
     <BlogPostList/>
   </div>
 </template>
