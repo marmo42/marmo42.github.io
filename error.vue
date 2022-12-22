@@ -1,6 +1,16 @@
 <template>
-  {{ error }}
-  <button @click="handleError">Clear errors</button>
+  <div>
+    <NuxtLayout>
+      <AppHeader/>
+
+      <AppContent>
+        {{ error }}
+        <button @click="handleError">Clear errors</button>
+      </AppContent>
+
+      <AppFooter/>
+    </NuxtLayout>
+  </div>
 </template>
 
 <script setup>
