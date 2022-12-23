@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: (titleChunk) => {      return titleChunk ? `${titleChunk} - Site Title` : 'Site Title';    }
+      title: "StylexTV",
+      titleTemplate: "%s | StylexTV"
     }
   },
   components: [
