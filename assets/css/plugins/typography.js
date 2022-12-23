@@ -15,7 +15,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose h1, h2, h3': {
-      '@apply font-yt-sans font-bold': {}
+      '@apply font-youtube-sans font-bold': {}
     },
 
     '.prose h1': {

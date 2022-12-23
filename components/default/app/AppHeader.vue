@@ -3,9 +3,9 @@
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>
-      <AppHeaderNavbarItem/>
-      <AppHeaderNavbarItem/>
-      <AppHeaderNavbarItem/>
+      <AppHeaderNavbarItem>Start</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem>Blog</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem>About</AppHeaderNavbarItem>
     </AppHeaderNavbar>
 
     <AppHeaderSocials>
