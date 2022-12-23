@@ -1,5 +1,5 @@
 <template>
-  <img src="~/assets/images/icons/bell.svg"/>
+  <img src="~/assets/images/icons/github.svg"/>
 </template>
 
 <script>

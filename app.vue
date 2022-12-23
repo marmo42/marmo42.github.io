@@ -11,3 +11,9 @@
     </NuxtLayout>
   </div>
 </template>
+
+<script>
+import Rellax from "rellax";
+
+var rellax = new Rellax('.rellax');
+</script>
