@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin')
 module.exports = plugin(function({ addComponents }) {
   addComponents({
     '.prose': {
-      '@apply font-roboto font-normal': {}
+      '@apply font-inter font-normal': {}
     },
 
     '.prose *': {

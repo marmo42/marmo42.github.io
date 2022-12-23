@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-14 px-20 top-0 z-30 sticky flex justify-between bg-black-pale">
+  <div class="w-full h-20 px-20 top-0 z-30 sticky flex justify-between bg-black-pale">
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>

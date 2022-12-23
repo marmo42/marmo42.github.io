@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full flex">
-    <BlogPostSidebar/>
+  <div class="w-full flex justify-center">
+    <BlogPostBackground/>
     <BlogPostContent/>
   </div>
 </template>

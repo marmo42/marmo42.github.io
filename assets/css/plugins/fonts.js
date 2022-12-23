@@ -76,6 +76,60 @@ module.exports = plugin(function({ addBase }) {
         src: 'url("./assets/fonts/roboto/black_italic.ttf") format("truetype")'
       },
       {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 100,
+        src: 'url("./assets/fonts/inter/thin.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 200,
+        src: 'url("./assets/fonts/inter/extra_light.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 300,
+        src: 'url("./assets/fonts/inter/light.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 400,
+        src: 'url("./assets/fonts/inter/regular.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 500,
+        src: 'url("./assets/fonts/inter/medium.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 600,
+        src: 'url("./assets/fonts/inter/semi_bold.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 700,
+        src: 'url("./assets/fonts/inter/bold.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 800,
+        src: 'url("./assets/fonts/inter/extra_bold.ttf") format("truetype")'
+      },
+      {
+        fontFamily: 'Inter',
+        fontStyle: 'normal',
+        fontWeight: 900,
+        src: 'url("./assets/fonts/inter/black.ttf") format("truetype")'
+      },
+      {
         fontFamily: 'YouTube Sans',
         fontStyle: 'normal',
         fontWeight: 700,
@@ -91,6 +145,7 @@ module.exports = plugin(function({ addBase }) {
     extend: {
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
         'yt-sans': ['YouTube Sans', 'sans-serif']
       }
     }
