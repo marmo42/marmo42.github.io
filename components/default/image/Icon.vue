@@ -1,16 +1,17 @@
 <template>
-  <img src="~/assets/images/icons/github.svg"/>
+  <img :src="path"/>
 </template>
 
-<script>
-export default {
-  props: {
-    name: String
-  },
-  computed: {
-    path() {
-      return '~/assets/images/icons/' + this.name + '.svg'
-    }
-  }
-}
+<script setup>
+import { ref, watchEffect } from 'vue';
+
+const props = defineProps({
+  name: { type: String }
+});
+
+const path = ref();
+
+watchEffect(async () => {
+  path.value = (await import(/* @vite-ignore */ `../../../assets/images/icons/${props.name}.svg`)).default;
+})
 </script>

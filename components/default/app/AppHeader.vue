@@ -10,8 +10,8 @@
 
     <AppHeaderSocials>
       <AppHeaderSocialsItem iconName="github"/>
-      <AppHeaderSocialsItem iconName="github"/>
-      <AppHeaderSocialsItem iconName="github"/>
+      <AppHeaderSocialsItem iconName="youtube"/>
+      <AppHeaderSocialsItem iconName="twitter"/>
     </AppHeaderSocials>
   </div>
 </template>
