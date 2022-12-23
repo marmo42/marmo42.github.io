@@ -15,5 +15,9 @@
 <script>
 import Rellax from "rellax";
 
-var rellax = new Rellax('.rellax');
+export default {
+  mounted() {
+    new Rellax('.rellax');
+  }
+}
 </script>
