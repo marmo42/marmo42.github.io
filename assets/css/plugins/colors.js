@@ -12,7 +12,10 @@ module.exports = plugin(function({}) {}, {
           DEFAULT: '#fff',
           pale: '#f1f1f1'
         },
-        'gray': '#272727',
+        'gray': {
+          dark: '#272727',
+          light: '#aaaaaa'
+        },
         'red': '#ff5f56',
         'yellow': '#ffbd2e',
         'green': '#27c93f'

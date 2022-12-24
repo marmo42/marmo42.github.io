@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[500px] h-[300px] bg-gray rounded-md">
+  <div class="w-[500px] h-[300px] bg-gray-dark rounded-md">
     <StartHeroTerminalToolbar/>
     <StartHeroTerminalText/>
   </div>
