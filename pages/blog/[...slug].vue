@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BlogPost/>
+    <BlogPost :post="post"/>
   </div>
 </template>
 
@@ -14,4 +14,6 @@
   if(!data.value) {
     throw createError({ statusCode: 404, statusMessage: 'Blog post not found!' });
   }
+
+  const post = data;
 </script>
