@@ -13,7 +13,8 @@ module.exports = plugin(function({}) {}, {
           pale: '#f1f1f1'
         },
         'gray': {
-          dark: '#272727',
+          dark: '#212121',
+          DEFAULT: '#272727',
           light: '#aaaaaa'
         },
         'red': '#ff5f56',
