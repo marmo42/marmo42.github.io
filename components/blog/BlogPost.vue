@@ -1,7 +1,11 @@
 <template>
   <div class="w-full flex justify-center">
     <BlogPostBackground :post="post"/>
-    <BlogPostContent/>
+
+    <div class="mt-[575px] flex">
+      <BlogPostContent/>
+      <BlogPostSidebar/>
+    </div>
   </div>
 </template>
 
