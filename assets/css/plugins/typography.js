@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin')
 module.exports = plugin(function({ addComponents }) {
   addComponents({
     '.prose': {
-      '@apply text-sm': {},
+      '@apply text-white-pale text-sm': {},
       '@apply font-inter font-normal': {}
     },
 
@@ -27,6 +27,14 @@ module.exports = plugin(function({ addComponents }) {
       '@apply text-xl': {}
     },
 
+    '.prose a': {
+      '': {}
+    },
+
+    '.prose hr': {
+      '@apply border-white/10': {}
+    },
+
     '.prose pre': {
       '@apply px-[14px] py-3': {},
       '@apply rounded-md bg-gray': {}
@@ -37,8 +45,21 @@ module.exports = plugin(function({ addComponents }) {
       '@apply border-l-4 border-white-pale': {}
     },
 
+    '.prose blockquote *': {
+      '@apply last:mb-0': {},
+    },
+
     '.prose code': {
       '@apply font-lucida-console font-normal': {}
+    },
+
+    '.prose img': {
+      '@apply rounded-2xl': {}
+    },
+
+    '.prose figcaption': {
+      '@apply w-full flex justify-center': {},
+      '@apply text-gray-light': {}
     }
   });
 })

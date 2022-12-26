@@ -1,5 +1,5 @@
 <template>
-  <div class="prose mb-2 text-white-pale">
+  <div class="prose mb-2">
     <h1>Relaxing Fireplace</h1>
     <BlogPostAuthor :author="post.author"/>
 

@@ -96,3 +96,18 @@ Start numbering with offset:
 ## Images
 
 ![A soothing scene](/content/blog/relaxing-fireplace/assets/soothing_scene.png)
+<figcaption>A soothing scene to relax to</figcaption>
+
+The holiday season is upon us, dear reader. It can be a stressful time no matter what you’re celebrating (or not celebrating). But I am here to remind, nay – urge you to relax that mind and unwind for a moment. And lo and behold, I just happen to have some gifts that will help you with that!
+
+---
+
+We have created a series of videos that will turn any screen into a relaxing Minecraft moment. The Minecraft world may be filled with adventure, but it’s also somewhere to appreciate the beauty of the small things. Like heavy drops of rain falling on the leaves of a mangrove tree. Or how the soft snow drifts down to wrap the Overworld up in a bright, white blanket. Find the five soothing scenes in a playlist on our YouTube channel, listen to the serene soundscapes on Spotify, and download their matching wallpapers to your device.
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
