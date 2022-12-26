@@ -9,9 +9,9 @@
     </AppHeaderNavbar>
 
     <AppHeaderSocials>
-      <AppHeaderSocialsItem iconName="github"/>
-      <AppHeaderSocialsItem iconName="youtube"/>
-      <AppHeaderSocialsItem iconName="twitter"/>
+      <AppHeaderSocialsItem iconName="twitter2"/>
+      <AppHeaderSocialsItem iconName="discord"/>
+      <AppHeaderSocialsItem iconName="github2"/>
     </AppHeaderSocials>
   </div>
 </template>
