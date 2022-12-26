@@ -1,5 +1,5 @@
 <template>
-  <Heading class="text-white text-[28px]">
+  <Heading class="mb-3 text-white text-[28px]">
     <slot></slot>
   </Heading>
 </template>

@@ -1,3 +1,3 @@
 <template>
-  <ContentDoc class="prose text-white-pale"/>
+  <ContentDoc class="mb-2 prose text-white-pale"/>
 </template>
