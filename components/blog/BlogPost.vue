@@ -4,7 +4,7 @@
 
     <div class="mt-[575px] flex">
       <BlogPostContent/>
-      <BlogPostSidebar/>
+      <BlogPostNavbar/>
     </div>
   </div>
 </template>
