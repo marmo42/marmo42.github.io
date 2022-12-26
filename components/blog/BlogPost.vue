@@ -3,7 +3,7 @@
     <BlogPostBackground :post="post"/>
 
     <div class="mt-[575px] flex">
-      <BlogPostContent/>
+      <BlogPostContent :post="post"/>
       <BlogPostNavbar/>
     </div>
   </div>
