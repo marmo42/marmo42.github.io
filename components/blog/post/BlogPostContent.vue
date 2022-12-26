@@ -1,3 +1,8 @@
 <template>
-  <ContentDoc class="mb-2 prose text-white-pale"/>
+  <div class="prose mb-2 text-white-pale">
+    <h1>Relaxing Fireplace</h1>
+    <BlogPostAuthor/>
+
+    <ContentDoc/>
+  </div>
 </template>

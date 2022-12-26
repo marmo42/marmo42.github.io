@@ -3,8 +3,6 @@ title: Relaxing Fireplace
 author: StylexTV
 description: Learn how to use @nuxt/content.
 ---
-# Relaxing Fireplace
-
 Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
 
 By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you really are just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
@@ -94,3 +92,7 @@ Start numbering with offset:
 
 57. foo
 1. bar
+
+## Images
+
+![A soothing scene](/content/blog/relaxing-fireplace/assets/soothing_scene.png)
