@@ -1,12 +1,12 @@
 <template>
-  <div class="w-full flex justify-center">
+  <AppContentItem class="w-full flex justify-center">
     <BlogPostBackground :post="post"/>
 
     <div class="mt-[575px] flex">
       <BlogPostContent :post="post"/>
       <BlogPostNavbar/>
     </div>
-  </div>
+  </AppContentItem>
 </template>
 
 <script>

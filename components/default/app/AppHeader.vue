@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-20 px-80 z-30 top-0 fixed flex justify-between transition" :class="showBackground ? 'bg-black-pale' : 'bg-transparent'">
+  <div class="w-full h-20 px-80 z-30 top-0 fixed flex justify-between transition" :class="{background: showBackground}">
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>
@@ -9,12 +9,18 @@
     </AppHeaderNavbar>
 
     <AppHeaderSocials>
-      <AppHeaderSocialsItem iconName="twitter2"/>
+      <AppHeaderSocialsItem iconName="twitter"/>
       <AppHeaderSocialsItem iconName="discord"/>
-      <AppHeaderSocialsItem iconName="github2"/>
+      <AppHeaderSocialsItem iconName="github"/>
     </AppHeaderSocials>
   </div>
 </template>
+
+<style>
+.background {
+  @apply bg-black-pale;
+}
+</style>
 
 <script>
 export default {
@@ -25,6 +31,9 @@ export default {
   },
   mounted() {
     window.addEventListener('scroll', this.onScroll);
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.onScroll);
   },
   methods: {
     onScroll() {

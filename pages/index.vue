@@ -2,9 +2,9 @@
   <div class="flex flex-col items-center">
     <StartHero/>
     
-    <div class="inline-block">
+    <AppContentItem class="inline-block">
       <StartButton/>
-    </div>
+    </AppContentItem>
   </div>
 </template>
 
