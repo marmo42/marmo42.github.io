@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row flex-wrap items-center">
+  <AppContentItem class="flex flex-row flex-wrap items-center">
     <slot></slot>
-  </div>
+  </AppContentItem>
 </template>

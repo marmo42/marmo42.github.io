@@ -18,7 +18,7 @@
 
 <style>
 .background {
-  @apply bg-black-pale;
+  background: #0c0c0c;
 }
 </style>
 
