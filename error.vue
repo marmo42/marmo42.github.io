@@ -4,7 +4,7 @@
       <NuxtLoadingIndicator/>
 
       <AppContent>
-        <ErrorContent/>
+        <ErrorHero/>
       </AppContent>
     </NuxtLayout>
   </div>
