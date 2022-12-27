@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-20 px-80 z-30 top-0 fixed flex justify-between transition" :class="{ background: showBackground }">
+  <div class="w-full h-20 px-80 z-30 top-0 fixed flex justify-between transition" :class="showBackground ? 'bg-black-pale' : 'bg-transparent'">
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>
@@ -15,12 +15,6 @@
     </AppHeaderSocials>
   </div>
 </template>
-
-<style>
-.background {
-  background: #0f0f0f;
-}
-</style>
 
 <script>
 export default {
