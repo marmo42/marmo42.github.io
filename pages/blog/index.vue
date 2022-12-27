@@ -16,15 +16,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: 'Blog'
-  },
-  data() {
-    return {
-      highlightedPosts: ['relaxing-fireplace', 'relaxing-fireplace', 'relaxing-fireplace']
-    }
-  }
-}
+<script setup lang="ts">
+useHead({
+  title: 'Blog'
+});
+
+const highlightedPosts = ['relaxing-fireplace', 'relaxing-fireplace', 'relaxing-fireplace'];
 </script>

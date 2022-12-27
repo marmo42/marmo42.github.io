@@ -13,12 +13,16 @@
   </div>
 </template>
 
-<script>
-import Rellax from "rellax";
+<script setup lang="ts">
+// import Rellax from "rellax";
 
-export default {
-  mounted() {
-    new Rellax('.rellax');
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} | StylexTV` : 'StylexTV';
   }
-}
+});
+
+onMounted(() => {
+  // new Rellax('.rellax');
+})
 </script>

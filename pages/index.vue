@@ -8,10 +8,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: 'Start'
-  }
-}
+<script setup lang="ts">
+useHead({
+  title: 'Start'
+});
 </script>
