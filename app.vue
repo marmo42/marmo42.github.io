@@ -13,8 +13,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
-// import Rellax from "rellax";
+<script setup>
+import Rellax from 'rellax';
 
 useHead({
   titleTemplate: (titleChunk) => {
@@ -23,6 +23,6 @@ useHead({
 });
 
 onMounted(() => {
-  // new Rellax('.rellax');
+  new Rellax('.rellax');
 })
 </script>
