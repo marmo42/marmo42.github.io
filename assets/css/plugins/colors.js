@@ -6,16 +6,16 @@ module.exports = plugin(function({}) {}, {
       colors: {
         'black': {
           DEFAULT: '#000',
-          pale: '#0f0f0f'
+          pale: '#0c0c0c'
         },
         'white': {
           DEFAULT: '#fff',
-          pale: '#f1f1f1'
+          pale: '#fafafa'
         },
         'gray': {
-          dark: '#212121',
-          DEFAULT: '#272727',
-          light: '#aaaaaa'
+          dark: '#121212',
+          DEFAULT: '#181818',
+          light: '#a1a1a1'
         },
         'red': '#ff5f56',
         'yellow': '#ffbd2e',
