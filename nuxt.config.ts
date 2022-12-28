@@ -8,7 +8,8 @@ export default defineNuxtConfig({
   ],
   css: ['~/assets/css/main.css'],
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@vueuse/nuxt'
   ],
   postcss: {
     plugins: {
