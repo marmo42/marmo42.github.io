@@ -8,6 +8,7 @@
       <AppHeaderNavbarItem>Start</AppHeaderNavbarItem>
       <AppHeaderNavbarItem>Blog</AppHeaderNavbarItem>
       <AppHeaderNavbarItem>About</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem>Design</AppHeaderNavbarItem>
     </AppHeaderNavbar>
 
     <AppHeaderSocials>

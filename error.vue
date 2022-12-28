@@ -1,11 +1,11 @@
 <template>
   <div>
     <NuxtLayout>
-      <NuxtLoadingIndicator/>
 
       <AppContent>
         <ErrorHero/>
       </AppContent>
+      
     </NuxtLayout>
   </div>
 </template>
