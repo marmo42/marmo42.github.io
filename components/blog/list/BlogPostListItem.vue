@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[360px] mr-4 mb-10">
+  <div class="space-y-2">
     <BlogPostListItemCover :post="post"/>
     <BlogPostListItemHeading>{{ post.title }}</BlogPostListItemHeading>
     <BlogPostListItemAuthor>{{ post.author }}</BlogPostListItemAuthor>

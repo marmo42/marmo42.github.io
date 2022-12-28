@@ -1,13 +1,11 @@
 <template>
-  <BlogPostListHeading>Highlighted Posts</BlogPostListHeading>
-  <BlogPostList>
+  <BlogPostList heading="Highlighted Posts">
     <ContentQuery v-for="path in highlightedPosts" :path="'/blog/' + path" v-slot="{ data }">
       <BlogPostListItem :post="data[0]"/>
     </ContentQuery>
   </BlogPostList>
 
-  <BlogPostListHeading>All Posts</BlogPostListHeading>
-  <BlogPostList>
+  <BlogPostList heading="All Posts">
     <ContentList path="/blog" v-slot="{ list }">
       <BlogPostListItem v-for="post in list" :key="post._path" :post="post"/>
     </ContentList>
