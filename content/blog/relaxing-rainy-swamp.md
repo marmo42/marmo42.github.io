@@ -1,7 +1,7 @@
 ---
 title: Relaxing Rainy Swamp
 author: StylexTV
-description: Learn how to use @nuxt/content.
+description: Relax in Minecraft with Soothing Scene Videos and Wallpapers!
 ---
 The holiday season is upon us, dear reader. It can be a stressful time no matter what you’re celebrating (or not celebrating). But I am here to remind, nay – urge you to relax that mind and unwind for a moment. And lo and behold, I just happen to have some gifts that will help you with that!
 

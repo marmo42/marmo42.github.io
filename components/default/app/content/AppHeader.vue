@@ -1,7 +1,5 @@
 <template>
-  <AppHeaderBackground/>
-
-  <AppContentItem class="w-full h-20 z-30 top-0 fixed flex justify-between">
+  <AppContentItem class="w-full h-20 z-30 top-0 absolute flex justify-between">
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>
