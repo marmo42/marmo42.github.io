@@ -2,13 +2,13 @@
   <div>
     <NuxtLayout>
       <NuxtLoadingIndicator/>
-      <AppHeader/>
 
       <AppContent>
+        <AppHeader/>
         <NuxtPage/>
+        <AppFooter/>
       </AppContent>
-
-      <AppFooter/>
+      
     </NuxtLayout>
   </div>
 </template>

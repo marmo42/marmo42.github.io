@@ -1,7 +1,7 @@
 <template>
-  <AppContentItem class="w-full flex justify-center">
-    <BlogPostBackground :post="post"/>
+  <BlogPostBackground :post="post"/>
 
+  <AppContentItem class="w-full flex justify-center">
     <div class="mt-[575px] flex">
       <BlogPostContent :post="post"/>
       <BlogPostNavbar/>

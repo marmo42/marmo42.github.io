@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full h-24 px-[500px] flex">
+  <AppContentItem class="w-full h-24 flex items-center">
     <AppFooterNavbar>
       <AppFooterNavbarItem>GitHub</AppFooterNavbarItem>
       <AppFooterNavbarItem>Projects</AppFooterNavbarItem>
       <AppFooterNavbarItem>Status</AppFooterNavbarItem>
       <AppFooterNavbarItem>License: <b>GPL</b></AppFooterNavbarItem>
     </AppFooterNavbar>
-  </div>
+  </AppContentItem>
 </template>

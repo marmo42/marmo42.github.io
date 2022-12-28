@@ -1,11 +1,9 @@
 <template>
-  <div class="flex flex-col items-center">
-    <StartHero/>
-    
-    <AppContentItem class="inline-block">
-      <StartButton/>
-    </AppContentItem>
-  </div>
+  <StartHero/>
+  
+  <AppContentItem class="inline-block">
+    <StartButton/>
+  </AppContentItem>
 </template>
 
 <script setup>

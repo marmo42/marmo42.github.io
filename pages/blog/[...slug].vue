@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <BlogPost :post="post"/>
-  </div>
+  <BlogPost :post="post"/>
 </template>
 
 <script setup>
