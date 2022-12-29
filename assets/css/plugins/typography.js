@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin')
 module.exports = plugin(function({ addComponents }) {
   addComponents({
     '.prose': {
-      '@apply text-white-50 text-sm': {},
+      '@apply text-gray-250 text-sm': {},
       '@apply font-inter font-normal': {}
     },
 
@@ -12,6 +12,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose h1, h2, h3, h4, h5': {
+      '@apply text-white-50': {},
       '@apply font-youtube-sans font-bold': {}
     },
 
