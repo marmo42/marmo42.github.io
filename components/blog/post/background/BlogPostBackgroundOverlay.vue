@@ -1,3 +1,3 @@
 <template>
-  <div class="w-full h-full absolute bg-black-pale/70"></div>
+  <div class="w-full h-full absolute bg-black-900/70"></div>
 </template>

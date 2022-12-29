@@ -1,5 +1,5 @@
 <template>
-  <hr class="w-full mt-10 border-[#272727]">
+  <hr class="w-full mt-10 border-gray-700">
 
   <AppContentItem class="w-full h-24 flex items-center">
     <AppFooterNavbar>
