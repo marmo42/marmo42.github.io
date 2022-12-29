@@ -1,6 +1,6 @@
 <template>
   <AppContentItem class="w-full h-screen flex flex-col items-center justify-center">
-    <ErrorHeroHeading>404</ErrorHeroHeading>
+    <ErrorHeroTitle>404</ErrorHeroTitle>
     <ErrorHeroMessage>Page not found</ErrorHeroMessage>
     <ErrorHeroButton/>
   </AppContentItem>

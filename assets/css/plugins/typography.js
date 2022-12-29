@@ -7,11 +7,11 @@ module.exports = plugin(function({ addComponents }) {
       '@apply font-inter font-normal': {}
     },
 
-    '.prose *': {
-      '@apply mb-6': {}
-    },
+    // '.prose *': {
+    //   '@apply mb-6': {}
+    // },
 
-    '.prose h1, h2, h3': {
+    '.prose h1, h2, h3, h4, h5': {
       '@apply font-youtube-sans font-bold': {}
     },
 
@@ -20,10 +20,18 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose h2': {
-      '@apply text-3xl': {}
+      '@apply text-4xl': {}
     },
 
     '.prose h3': {
+      '@apply text-3xl': {}
+    },
+
+    '.prose h4': {
+      '@apply text-2xl': {}
+    },
+
+    '.prose h5': {
       '@apply text-xl': {}
     },
 

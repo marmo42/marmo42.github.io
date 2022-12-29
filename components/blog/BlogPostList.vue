@@ -1,6 +1,6 @@
 <template>
   <AppContentItem class="w-full">
-    <BlogPostListHeading>{{ heading }}</BlogPostListHeading>
+    <BlogPostListTitle>{{ title }}</BlogPostListTitle>
 
     <div class="grid grid-cols-3 gap-10">
       <slot></slot>
@@ -11,7 +11,7 @@
 <script>
 export default {
   props: {
-    heading: String
+    title: String
   }
 }
 </script>
