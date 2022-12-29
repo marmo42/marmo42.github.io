@@ -9,6 +9,8 @@ We have created a series of videos that will turn any screen into a relaxing Min
 
 Our writers are so devoted to their craft that they have sent postcards to help our readers answer the question – which soothing scene speaks to you? And if you feel compelled to answer, let us know in the comment section!
 
+> Greetings from the rainy swamp! I have made myself comfortable beneath a big mangrove tree and have been dozing in and out since I got here. The steady sound of the falling rain coupled with the watchful eyes of the frogs have put me in a state of such comfort, I may never leave. I always suspected it was my destiny to become a swamp creature, and I am very content to lean fully into this lifestyle. This swamp is big enough for the both of us, so make yourself comfortable and enjoy the pitter patter. 
+
 If there’s anything I’ve learned from social media, it’s that 1) Almost nobody knows what “POV” means and 2) Foxes do NOT make good pets. They will scream all night, sleep all day, destroy everything you own, and they will never, ever be potty trained. And yet I still want one. Badly. Not even my Minecraft fox sanctuary will scratch that itch.
 
 You can imagine my delight (and relief) when I saw this ambient video and realized I don’t need to indulge my self-destructive need to invite a wild animal into my real-life home. I put this video on repeat on my TV and all of a sudden, I had everything I needed: a beautiful cabin reminiscent of the Minecraft base I’ve always wanted to build but don’t have the skill to; a roaring fireplace to make me feel warm inside and out; and finally, the pet I’ve always wanted without the life-changing consequences.
