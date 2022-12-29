@@ -7,9 +7,9 @@ module.exports = plugin(function({ addComponents }) {
       '@apply font-inter font-normal': {}
     },
 
-    // '.prose *': {
-    //   '@apply mb-6': {}
-    // },
+    '.prose-content *': {
+      '@apply mb-6': {}
+    },
 
     '.prose h1, h2, h3, h4, h5': {
       '@apply font-youtube-sans font-bold': {}
