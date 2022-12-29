@@ -1,5 +1,5 @@
 <template>
-  <Button class="mx-2 text-white-50 text-sm">
+  <Button class="mx-2 font-medium text-gray-300 text-sm">
     <slot></slot>
   </Button>
 </template>
