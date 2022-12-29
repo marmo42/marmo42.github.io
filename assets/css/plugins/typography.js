@@ -40,6 +40,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose hr': {
+      '@apply w-full': {},
       '@apply border-gray-700': {}
     },
 
