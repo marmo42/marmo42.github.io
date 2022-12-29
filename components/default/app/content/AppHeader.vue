@@ -1,5 +1,5 @@
 <template>
-  <AppContentItem class="w-full h-20 flex justify-between">
+  <AppContentItem class="w-full h-20 mb-16 flex justify-between">
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>

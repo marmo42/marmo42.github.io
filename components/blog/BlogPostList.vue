@@ -1,5 +1,5 @@
 <template>
-  <AppContentItem class="w-full mt-[104px]">
+  <AppContentItem class="w-full">
     <BlogPostListHeading>{{ heading }}</BlogPostListHeading>
 
     <div class="grid grid-cols-3 gap-10">
