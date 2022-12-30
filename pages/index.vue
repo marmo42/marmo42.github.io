@@ -1,5 +1,6 @@
 <template>
   <StartHero/>
+  <StartProjects/>
   <StartTools/>
   <StartFooter/>
 </template>
