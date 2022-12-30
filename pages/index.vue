@@ -1,6 +1,7 @@
 <template>
   <StartHero/>
   <StartTools/>
+  <StartFooter/>
 </template>
 
 <script setup>
