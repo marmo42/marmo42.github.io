@@ -1,5 +1,5 @@
 <template>
-  <Button class="!block text-gray-400 text-sm">
+  <div class="text-gray-400 text-sm">
     <slot></slot>
-  </Button>
+  </div>
 </template>

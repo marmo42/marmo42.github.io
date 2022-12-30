@@ -64,7 +64,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose img': {
-      '@apply rounded-2xl': {}
+      '@apply rounded-lg': {}
     },
 
     '.prose figcaption': {

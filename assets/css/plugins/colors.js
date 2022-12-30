@@ -23,7 +23,8 @@ module.exports = plugin(function({}) {}, {
         },
         'red': '#ff5f56',
         'yellow': '#ffbd2e',
-        'green': '#27c93f'
+        'green': '#27c93f',
+        'cyan': '#115461'
       }
     }
   }

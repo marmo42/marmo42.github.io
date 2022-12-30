@@ -1,7 +1,5 @@
 <template>
-  <hr class="mt-10">
-
-  <AppContentItem class="w-full h-24 flex items-center">
+  <AppContentItem class="w-full py-12 flex items-center">
     <AppFooterNavbar>
       <AppFooterNavbarItem>GitHub</AppFooterNavbarItem>
       <AppFooterNavbarItem>Projects</AppFooterNavbarItem>
