@@ -8,6 +8,10 @@
       <StartProjectsListItem/>
       <StartProjectsListItem/>
       <StartProjectsListItem/>
+      <StartProjectsListItem/>
+      <StartProjectsListItem/>
+      <StartProjectsListItem/>
+      <StartProjectsListItem/>
     </StartProjectsList>
   </AppContentItem>
 </template>
