@@ -21,7 +21,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose h4, h5': {
-      '@apply font-semibold': {}
+      '@apply font-bold': {}
     },
 
     '.prose h1': {
