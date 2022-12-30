@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-6 font-roboto font-medium flex items-center text-gray-400 text-base">
+  <div class="mt-6 font-roboto font-medium flex items-center text-gray-400">
     <BlogPostAuthorPicture :author="author"/>
 
     {{ author }}

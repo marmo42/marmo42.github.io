@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-[calc(100vh*2)] -z-10 -bottom[120px] absolute background"></div>
+  <div class="h-[calc(100vh*2)] -z-10 left-0 right-0 bottom-0 absolute background"></div>
 </template>
 
 <style>
