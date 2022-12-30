@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-black-900;
+    @apply bg-gray-800;
   }
 
   ::selection {
