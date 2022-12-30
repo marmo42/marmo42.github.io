@@ -8,6 +8,6 @@
   }
 
   ::selection {
-    @apply bg-cyan;
+    @apply bg-cyan-400/30;
   }
 }
