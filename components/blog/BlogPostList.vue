@@ -2,7 +2,7 @@
   <AppContentItem class="w-full">
     <BlogPostListTitle>{{ title }}</BlogPostListTitle>
 
-    <div class="grid grid-cols-3 gap-10">
+    <div class="grid grid-cols-2 gap-12">
       <slot></slot>
     </div>
   </AppContentItem>

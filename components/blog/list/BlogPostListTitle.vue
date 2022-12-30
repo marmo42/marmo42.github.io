@@ -1,5 +1,5 @@
 <template>
-  <h3 class="mb-8">
+  <h2 class="w-full mb-12">
     <slot></slot>
-  </h3>
+  </h2>
 </template>
