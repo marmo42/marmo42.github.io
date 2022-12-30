@@ -1,10 +1,9 @@
 <template>
-  <StartHero/>
-  <StartTools/>
+  <AboutHero/>
 </template>
 
 <script setup>
 useHead({
-  title: 'Start'
+  title: 'About'
 });
 </script>

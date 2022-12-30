@@ -32,6 +32,6 @@
 
 <script setup>
 useHead({
-  title: 'Design Kit'
+  title: 'Design'
 });
 </script>

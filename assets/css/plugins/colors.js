@@ -21,9 +21,7 @@ module.exports = plugin(function({}) {}, {
           300: '#d4d4d4',
           250: '#d6d6d6'
         },
-        'red': '#fe004e',
-        'yellow': '#ffbd2e',
-        'green': '#27c93f'
+        'red': '#fe004e'
       }
     }
   }
