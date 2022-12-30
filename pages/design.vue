@@ -17,6 +17,8 @@
       <DesignListColorItem name="Red" color="#FE004E"/>
       <DesignListColorItem name="White" color="#FFFFFF"/>
       <DesignListColorItem name="Gray" color="#18181B"/>
+      <DesignListColorItem name="Blue" color="#1A62FF"/>
+      <DesignListColorItem name="Pink" color="#EC4899"/>
     </DesignList>
   </DesignItem>
 
