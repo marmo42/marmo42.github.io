@@ -23,7 +23,8 @@ module.exports = plugin(function({}) {}, {
         },
         'red': '#fe004e',
         'blue': '#1a62ff',
-        'pink': '#ec4899'
+        'pink': '#ec4899',
+        'purple': '#a855f7'
       }
     }
   }

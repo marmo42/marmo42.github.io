@@ -1,3 +1,3 @@
 <template>
-  <NuxtLoadingIndicator class="!bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"/>
+  <NuxtLoadingIndicator class="!bg-gradient-to-r from-blue via-purple to-pink"/>
 </template>
