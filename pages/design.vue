@@ -3,10 +3,21 @@
 
   <DesignItem title="Logotype" subtitle="Nuxt Logo">
     <DesignItemText>The logo is made from two elements: the triangular mountains and the wordmark. In most cases, they should appear together as the opposite master lockup shows. The triangular mountains can be used on their own as an icon, profile picture or badge, but the wordmark should never be used without this symbol on the side.</DesignItemText>
+
+    <DesignList>
+      <DesignListLogoItem name="Logo red" isPrimary path="red"/>
+      <DesignListLogoItem name="Logo dark" path="red"/>
+    </DesignList>
   </DesignItem>
   
   <DesignItem title="Colors" subtitle="Color Palette">
     <DesignItemText>Our color palette is based on our iconic NuxtJS green and colours have been carefully considered to work in harmony and consistency across various media. When creating Nuxt communications, use the colour values shown to make sure your designs stay on-brand.</DesignItemText>
+
+    <DesignList>
+      <DesignListColorItem name="Red" color="#FE004E"/>
+      <DesignListColorItem name="White" color="#FFFFFF"/>
+      <DesignListColorItem name="Gray" color="#18181B"/>
+    </DesignList>
   </DesignItem>
 
   <DesignItem title="Typography" subtitle="Roobert font">
