@@ -132,6 +132,12 @@ module.exports = plugin(function({ addBase }) {
       {
         fontFamily: 'YouTube Sans',
         fontStyle: 'normal',
+        fontWeight: 600,
+        src: 'url("./assets/fonts/youtube-sans/semi_bold.otf") format("opentype")'
+      },
+      {
+        fontFamily: 'YouTube Sans',
+        fontStyle: 'normal',
         fontWeight: 700,
         src: 'url("./assets/fonts/youtube-sans/bold.otf") format("opentype")'
       },

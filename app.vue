@@ -1,6 +1,7 @@
 <template>
   <div>
     <NuxtLayout>
+      <AppLoadingIndicator/>
       
       <AppContent>
         <AppHeader/>

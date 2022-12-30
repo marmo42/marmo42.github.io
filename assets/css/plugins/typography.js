@@ -16,6 +16,14 @@ module.exports = plugin(function({ addComponents }) {
       '@apply font-youtube-sans font-bold': {}
     },
 
+    '.prose h1, h2, h3': {
+      '@apply font-bold': {}
+    },
+
+    '.prose h4, h5': {
+      '@apply font-semibold': {}
+    },
+
     '.prose h1': {
       '@apply text-5xl': {}
     },
