@@ -1,5 +1,13 @@
 <template>
-  <div class="p-1 top-2 right-2 absolute rounded-md text-xs text-gray-300 border border-gray-300">
-    <slot></slot>
+  <div class="p-1 top-2 right-2 absolute rounded-md text-xs border" :class="isPrimary ? 'text-gray-300 border-gray-300' : 'text-gray-800 border-gray-800'">
+    {{ isPrimary ? 'Primary' : 'Secondary' }}
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    isPrimary: Boolean
+  }
+}
+</script>

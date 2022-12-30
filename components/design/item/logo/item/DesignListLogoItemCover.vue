@@ -1,7 +1,7 @@
 <template>
-  <DesignListItemCover class="flex items-center justify-center bg-gray-900 ring-1 ring-gray-700">
+  <DesignListItemCover class="flex items-center justify-center ring-1 ring-gray-700" :class="isPrimary ? 'bg-gray-900' : 'bg-white'">
     <DesignListLogoItemCoverLogo :path="path"/>
-    <DesignListLogoItemCoverLabel>{{ isPrimary ? 'Primary' : 'Secondary' }}</DesignListLogoItemCoverLabel>
+    <DesignListLogoItemCoverLabel :isPrimary="isPrimary"/>
   </DesignListItemCover>
 </template>
 

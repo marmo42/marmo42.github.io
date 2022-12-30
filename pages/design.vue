@@ -6,7 +6,7 @@
 
     <DesignList>
       <DesignListLogoItem name="Logo red" isPrimary path="red"/>
-      <DesignListLogoItem name="Logo dark" path="red"/>
+      <DesignListLogoItem name="Logo gray" path="gray"/>
     </DesignList>
   </DesignItem>
   
