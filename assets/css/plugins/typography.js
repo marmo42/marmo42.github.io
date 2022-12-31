@@ -74,6 +74,10 @@ module.exports = plugin(function({ addComponents }) {
       '@apply rounded-lg': {}
     },
 
+    '.prose-content img': {
+      '@apply shadow-lg shadow-black/30': {}
+    },
+
     '.prose figcaption': {
       '@apply w-full flex justify-center': {},
       '@apply text-gray-400': {}
