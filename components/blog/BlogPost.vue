@@ -1,9 +1,9 @@
 <template>
   <BlogPostBackground :post="post"/>
+  <BlogPostNavbar/>
 
-  <AppContentItem class="w-full mt-[500px] flex justify-center">
+  <AppContentItem class="mt-[500px]">
     <BlogPostContent :post="post"/>
-    <BlogPostNavbar/>
   </AppContentItem>
 </template>
 
