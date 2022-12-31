@@ -1,5 +1,5 @@
 <template>
-  <AppContentItem class="w-full !py-12 flex items-center justify-between">
+  <AppContentItem class="w-full !py-12 flex items-center justify-between" showImmediately>
     <AppFooterLabel>© 2022 StylexTV.</AppFooterLabel>
 
     <AppFooterNavbar>
