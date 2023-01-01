@@ -6,7 +6,7 @@ module.exports = plugin(function({}) {}, {
       colors: {
         'black': {
           DEFAULT: '#000',
-          900: '#0c0c0c'
+          900: '#0c0c0d'
         },
         'white': {
           DEFAULT: '#fff',

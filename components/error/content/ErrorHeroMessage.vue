@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-16 font-roboto font-light text-gray-400 text-4xl">
+  <p class="mb-16 font-extralight text-4xl">
     <slot></slot>
-  </div>
+  </p>
 </template>
