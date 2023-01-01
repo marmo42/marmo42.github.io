@@ -17,10 +17,9 @@ export default {
     }
   },
   mounted() {
-    const anchorElement = this.getAnchorElement();
-    const tagName = anchorElement.tagName;
+    const depth = this.anchor.depth;
 
-    this.indent = tagName === 'H3';
+    this.indent = depth >= 3;
 
     window.addEventListener('scroll', this.onScroll);
   },

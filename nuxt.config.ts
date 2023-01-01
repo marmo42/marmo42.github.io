@@ -10,6 +10,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content'
   ],
+  content: {
+    markdown: {
+      toc: { depth: 3 }
+    }
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
