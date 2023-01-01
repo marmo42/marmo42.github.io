@@ -22,7 +22,10 @@ module.exports = plugin(function({}) {}, {
           200: '#e4e4e7'
         },
         'red': '#fe004e',
-        'blue': '#1a62ff',
+        'blue': {
+          500: '#1a62ff',
+          400: '#407cff'
+        },
         'pink': '#ec4899',
         'purple': '#a855f7'
       }

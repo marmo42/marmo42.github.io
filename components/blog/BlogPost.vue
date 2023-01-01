@@ -1,6 +1,6 @@
 <template>
   <BlogPostBackground :post="post"/>
-  <BlogPostNavbar/>
+  <BlogPostNavbar :post="post"/>
 
   <AppContentItem class="mt-[500px]">
     <BlogPostContent :post="post"/>
