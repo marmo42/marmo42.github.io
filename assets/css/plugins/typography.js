@@ -12,7 +12,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose h1, h2, h3, h4, h5': {
-      '@apply text-white-50': {},
+      '@apply text-white-50 tracking-tight': {},
     },
 
     '.prose h1, h2, h3': {

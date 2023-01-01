@@ -1,6 +1,6 @@
 <template>
   <AppContentItem class="w-full flex flex-col items-center">
-    <StartProjectsTitle>And more features</StartProjectsTitle>
+    <h2>And more features</h2>
     <StartProjectsText>On top of a powerful inbox, issue boards and GitHub sync, Volta is built for speed to become your day-to-day ally. It is built with a set of features that will increase your productivity.</StartProjectsText>
 
     <StartProjectsList>

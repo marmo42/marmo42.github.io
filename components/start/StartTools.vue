@@ -1,6 +1,6 @@
 <template>
   <AppContentItem class="w-full flex flex-col items-center">
-    <StartToolsTitle>Trusted by open-source communities</StartToolsTitle>
+    <h2>Trusted by open-source communities</h2>
 
     <StartToolsList>
       <StartToolsListItem logoPath="https://github.com/nuxt.png"/>
