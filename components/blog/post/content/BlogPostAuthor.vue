@@ -1,9 +1,9 @@
 <template>
-  <div class="mt-6 font-roboto font-medium flex items-center text-gray-400">
+  <p class="mt-6 flex items-center text-gray-400">
     <BlogPostAuthorPicture :author="author"/>
 
     {{ author }}
-  </div>
+  </p>
 </template>
 
 <script>

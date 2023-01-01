@@ -1,6 +1,6 @@
 <template>
   <AppContentItem class="w-full !py-12 flex items-center justify-between" showImmediately>
-    <AppFooterLabel>© 2022 StylexTV.</AppFooterLabel>
+    <AppFooterLabel>© 2023 StylexTV.</AppFooterLabel>
 
     <AppFooterNavbar>
       <AppFooterNavbarItem>GitHub</AppFooterNavbarItem>
