@@ -12,8 +12,11 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose h1, h2, h3, h4, h5': {
-      '@apply mt-12 mb-8': {},
       '@apply text-white-50 tracking-tight': {}
+    },
+
+    '.prose-content h1, h2, h3, h4, h5': {
+      '@apply mt-12 mb-8': {},
     },
 
     '.prose h1, h2, h3': {
@@ -49,17 +52,19 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose hr': {
-      '@apply w-full': {},
+      '@apply w-full my-8': {},
       '@apply border-gray-750': {}
     },
 
     '.prose pre': {
-      '@apply my-8 p-4': {},
       '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
     },
 
+    '.prose-content pre': {
+      '@apply my-8 p-4': {},
+    },
+
     '.prose blockquote': {
-      '@apply px-6 py-2': {},
       '@apply border-l border-gray-700': {}
     },
 
@@ -67,11 +72,18 @@ module.exports = plugin(function({ addComponents }) {
       '@apply last:mb-0': {},
     },
 
+    '.prose-content blockquote': {
+      '@apply px-6 py-2': {},
+    },
+
     '.prose code': {
-      '@apply px-[6px] py-1': {},
       '@apply font-consolas font-normal': {},
       '@apply text-sm leading-relaxed': {},
       '@apply rounded-md bg-gray-750': {}
+    },
+
+    '.prose-content code': {
+      '@apply px-[6px] py-1': {},
     },
 
     '.prose img': {
