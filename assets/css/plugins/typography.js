@@ -74,7 +74,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose li': {
-      '@apply marker:text-gray-500': {}
+      '@apply marker:text-gray-750': {}
     },
 
     '.prose blockquote': {
