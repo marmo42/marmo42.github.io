@@ -82,6 +82,10 @@ module.exports = plugin(function({ addComponents }) {
       '@apply text-sm text-left': {}
     },
 
+    '.prose-content table': {
+      '@apply my-8': {}
+    },
+
     '.prose thead': {
       '@apply border-b border-gray-600': {}
     },
@@ -90,7 +94,7 @@ module.exports = plugin(function({ addComponents }) {
       '@apply border-b border-dashed border-gray-700': {}
     },
 
-    '.prose tr *': {
+    '.prose tr td, th': {
       '@apply first:pl-0 last:pr-0': {}
     },
 

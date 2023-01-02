@@ -105,6 +105,14 @@ This text is ***really important***.
 | 2   | Wonderful | Data        |
 | 3   | Wonderful | Website     |
 
+|Key | Type | Default | Description|
+|-----|-----|-----|-----|
+`title`|`string`|First `<h1>` of the page|Title of the page, will also be injected in metas
+`description`|`string`|First `<p>` of the page|Description of the page, will be shown below the title and injected into the metas
+`draft`|`Boolean`|`false`|Mark the page as draft (and only display it in development mode).
+`navigation`|`Boolean`|`true`|Define if the page is included in `fetchContentNavigation` return value.
+`head`|`Object`|`true`|Easy access to `useContentHead`
+
 ## Images
 
 <Image page="blog/relaxing-fireplace" path="soothing_scene.png"/>
