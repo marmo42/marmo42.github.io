@@ -26,10 +26,10 @@ module.exports = plugin(function({ addBase }) {
         src: 'url("./assets/fonts/youtube-sans/bold.otf") format("opentype")'
       },
       {
-        fontFamily: 'Lucida Console',
+        fontFamily: 'Consolas',
         fontStyle: 'normal',
         fontWeight: 400,
-        src: 'url("./assets/fonts/lucida-console/regular.ttf") format("truetype")'
+        src: 'url("./assets/fonts/consolas/regular.ttf") format("truetype")'
       }
     ]
   };
@@ -42,7 +42,7 @@ module.exports = plugin(function({ addBase }) {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
         'youtube-sans': ['YouTube Sans', 'sans-serif'],
-        'lucida-console': ['Lucida Console', 'sans-serif']
+        'consolas': ['Consolas', 'sans-serif']
       }
     }
   }

@@ -67,7 +67,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose code': {
-      '@apply font-lucida-console font-normal': {}
+      '@apply font-consolas font-normal': {}
     },
 
     '.prose img': {
