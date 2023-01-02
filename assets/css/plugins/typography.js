@@ -49,7 +49,7 @@ module.exports = plugin(function({ addComponents }) {
       '@apply text-xl': {}
     },
 
-    '.prose-content a': {
+    '.prose-content p > a': {
       '@apply hover:text-blue-400': {},
       '@apply border-b border-dashed border-gray-400 hover:border-solid hover:border-blue-400': {}
     },
