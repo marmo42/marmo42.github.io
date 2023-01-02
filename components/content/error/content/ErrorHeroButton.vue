@@ -1,5 +1,3 @@
 <template>
-  <Button class="bg-white text-black text-sm">
-    <slot></slot>
-  </Button>
+  <Button class="bg-white text-black text-sm">Go back home</Button>
 </template>
