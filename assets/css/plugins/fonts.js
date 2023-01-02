@@ -20,6 +20,12 @@ module.exports = plugin(function({ addBase }) {
         src: 'url("./assets/fonts/youtube-sans/semi_bold.otf") format("opentype")'
       },
       {
+        fontFamily: 'YouTube Sans',
+        fontStyle: 'normal',
+        fontWeight: 700,
+        src: 'url("./assets/fonts/youtube-sans/bold.otf") format("opentype")'
+      },
+      {
         fontFamily: 'Consolas',
         fontStyle: 'normal',
         fontWeight: 400,
@@ -35,6 +41,7 @@ module.exports = plugin(function({ addBase }) {
     extend: {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
+        'youtube-sans': ['YouTube Sans', 'sans-serif'],
         'consolas': ['Consolas', 'sans-serif']
       }
     }

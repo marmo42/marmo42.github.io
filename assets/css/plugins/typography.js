@@ -12,16 +12,20 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose :is(h1, h2, h3, h4, h5)': {
+      '@apply font-bold': {},
       '@apply text-white-50 tracking-tight': {}
     },
 
-    '.prose-content :is(h1, h2, h3, h4, h5)': {
-      '@apply mt-12 mb-8': {},
-      '@apply font-bold': {}
+    '.prose :is(h1, h2, h3)': {
+      '@apply font-youtube-sans': {}
     },
 
     '.prose :is(h4, h5)': {
       '@apply font-semibold': {}
+    },
+
+    '.prose-content :is(h1, h2, h3, h4, h5)': {
+      '@apply mt-12 mb-8': {}
     },
 
     '.prose h1': {
