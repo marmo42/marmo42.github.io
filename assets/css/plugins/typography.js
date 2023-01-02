@@ -151,6 +151,19 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose-content figcaption': {
       '@apply mb-8': {},
+    },
+
+    '.prose-content .embed': {
+      '@apply w-[600px] mx-auto my-12': {},
+      '@apply rounded-xl': {}
+    },
+
+    '.prose-content .youtube-video': {
+      '@apply aspect-video': {},
+    },
+
+    '.prose-content .spotify-song': {
+      '@apply h-[152px]': {},
     }
   });
 })
