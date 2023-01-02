@@ -1,5 +1,5 @@
 <template>
-  <Image class="w-14 h-14 !rounded-full" page='design' :path="'logos/' + path + '.png'"/>
+  <Image class="w-14 h-14 rounded-full" page='design' :path="'logos/' + path + '.png'"/>
 </template>
 
 <script>
