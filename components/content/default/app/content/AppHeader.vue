@@ -1,5 +1,5 @@
 <template>
-  <AppContentItem class="w-full h-20 !py-0 flex justify-between" showImmediately>
+  <AppContentItem class="w-full h-20 !py-0 grid grid-cols-3" showImmediately>
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>
