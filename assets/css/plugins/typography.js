@@ -25,7 +25,8 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content :is(h1, h2, h3, h4, h5)': {
-      '@apply mt-12 mb-8': {}
+      '@apply mt-12 mb-8': {},
+      '@apply scroll-mt-10': {}
     },
 
     '.prose h1': {
