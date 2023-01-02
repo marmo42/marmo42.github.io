@@ -48,7 +48,8 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose a': {
-      '': {}
+      '@apply hover:text-blue-400': {},
+      '@apply border-b border-dashed border-gray-400 hover:border-solid hover:border-blue-400': {}
     },
 
     '.prose hr': {
@@ -65,6 +66,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose blockquote': {
+      '@apply px-6 py-2': {},
       '@apply border-l border-gray-700': {}
     },
 
@@ -73,7 +75,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content blockquote': {
-      '@apply px-6 py-2': {},
+      '@apply my-8': {},
     },
 
     '.prose code': {
