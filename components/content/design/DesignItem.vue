@@ -1,5 +1,5 @@
 <template>
-  <AppContentItem class="w-full mt-8">
+  <AppContentItem class="w-full">
     <DesignItemTitle>{{ title }}</DesignItemTitle>
     <h4>{{ subtitle }}</h4>
 
