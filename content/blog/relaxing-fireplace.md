@@ -9,7 +9,8 @@ We have created a series of videos that will turn any screen into a relaxing Min
 
 Our writers are so devoted to their craft that they have sent postcards to help our readers answer the question – which soothing scene speaks to you? And if you feel compelled to answer, let us know in the comment section!
 
-:youtube-video{id="bEoa2GjmPUk"}
+:image{page="blog/relaxing-fireplace" path="soothing_scene.png"}
+<figcaption>A soothing scene to relax to</figcaption>
 
 If there’s anything I’ve learned from social media, it’s that 1) Almost nobody knows what “POV” means and 2) Foxes do NOT make good pets. They will scream all night, sleep all day, destroy everything you own, and they will never, ever be potty trained. And yet I still want one. Badly. Not even my Minecraft fox sanctuary will scratch that itch.
 
@@ -131,3 +132,6 @@ We have created a series of videos that will turn any screen into a relaxing Min
 See [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
 
 ## Embeds
+
+:spotify-song{id="0RG3MSnGOZLDB7ksmWlzDc"}
+:youtube-video{id="bEoa2GjmPUk"}

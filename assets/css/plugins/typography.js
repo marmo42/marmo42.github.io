@@ -140,8 +140,8 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content img': {
-      '@apply rounded-lg': {},
-      '@apply mt-8 mb-4': {}
+      '@apply mt-12 mb-4': {},
+      '@apply rounded-lg': {}
     },
 
     '.prose figcaption': {

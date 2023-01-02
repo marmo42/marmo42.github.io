@@ -1,5 +1,5 @@
 <template>
-  <iframe :src="path" class="embed"></iframe>
+  <iframe :src="path" class="embed outline-none"></iframe>
 </template>
 
 <script>
