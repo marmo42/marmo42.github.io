@@ -5,7 +5,6 @@
     <AppHeaderNavbar>
       <AppHeaderNavbarItem to="/">Start</AppHeaderNavbarItem>
       <AppHeaderNavbarItem to="/blog">Blog</AppHeaderNavbarItem>
-      <AppHeaderNavbarItem to="/about">About</AppHeaderNavbarItem>
       <AppHeaderNavbarItem to="/design">Design</AppHeaderNavbarItem>
     </AppHeaderNavbar>
 
