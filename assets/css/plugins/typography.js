@@ -78,6 +78,10 @@ module.exports = plugin(function({ addComponents }) {
       '@apply marker:text-gray-750': {}
     },
 
+    '.prose table': {
+      '@apply text-sm text-left': {}
+    },
+
     '.prose thead': {
       '@apply border-b border-gray-600': {}
     },
@@ -93,7 +97,7 @@ module.exports = plugin(function({ addComponents }) {
     '.prose th': {
       '@apply pt-0': {},
       '@apply font-semibold': {},
-      '@apply text-sm text-gray-400': {}
+      '@apply text-gray-400': {}
     },
 
     '.prose td, th': {
