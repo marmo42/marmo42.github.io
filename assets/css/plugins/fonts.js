@@ -17,7 +17,7 @@ module.exports = plugin(function({ addBase }) {
         fontFamily: 'YouTube Sans',
         fontStyle: 'normal',
         fontWeight: 700,
-        src: 'url("./assets/fonts/youtube-sans/bold.ttf") format("truetype")'
+        src: 'url("./assets/fonts/youtube-sans/bold.otf") format("opentype")'
       },
       {
         fontFamily: 'Consolas',
