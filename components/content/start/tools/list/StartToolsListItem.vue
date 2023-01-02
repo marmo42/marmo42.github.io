@@ -1,5 +1,5 @@
 <template>
-  <img :src="logoPath" class="w-12 h-12 !rounded-none"/>
+  <img :src="logoPath" class="w-12 h-12"/>
 </template>
 
 <script>

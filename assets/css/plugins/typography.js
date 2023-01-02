@@ -110,7 +110,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose blockquote': {
       '@apply px-6 py-2': {},
-      '@apply border-l border-gray-700': {}
+      '@apply border-l border-gray-600': {}
     },
 
     '.prose blockquote *': {
@@ -139,12 +139,9 @@ module.exports = plugin(function({ addComponents }) {
       '@apply px-[6px] py-1': {},
     },
 
-    '.prose img': {
-      '@apply rounded-lg': {}
-    },
-
     '.prose-content img': {
-      '@apply my-8': {}
+      '@apply rounded-lg': {},
+      '@apply mt-8 mb-4': {}
     },
 
     '.prose figcaption': {
@@ -153,7 +150,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content figcaption': {
-      '@apply my-8': {},
+      '@apply mb-8': {},
     }
   });
 })
