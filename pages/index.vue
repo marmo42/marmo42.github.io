@@ -2,7 +2,6 @@
   <StartHero/>
   <StartProjects/>
   <StartTools/>
-  <StartFooter/>
 </template>
 
 <script setup>
