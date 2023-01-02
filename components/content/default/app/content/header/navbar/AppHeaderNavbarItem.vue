@@ -1,5 +1,13 @@
 <template>
-  <p class="font-medium text-gray-300 text-sm hover:text-white-50">
+  <NuxtLink :linkTo="to" class="font-medium text-gray-300 hover:text-white-50 text-sm">
     <slot></slot>
-  </p>
+  </NuxtLink>
 </template>
+
+<script>
+export default {
+  props: {
+    linkTo: String
+  }
+}
+</script>

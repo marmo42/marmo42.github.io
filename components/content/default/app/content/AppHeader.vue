@@ -3,15 +3,15 @@
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>
-      <AppHeaderNavbarItem to="/">Start</AppHeaderNavbarItem>
-      <AppHeaderNavbarItem to="/blog">Blog</AppHeaderNavbarItem>
-      <AppHeaderNavbarItem to="/design">Design</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem linkTo="/">Start</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem linkTo="/blog">Blog</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem linkTo="/design">Design</AppHeaderNavbarItem>
     </AppHeaderNavbar>
 
     <AppHeaderSocials>
-      <AppHeaderSocialsItem iconName="twitter"/>
-      <AppHeaderSocialsItem iconName="discord"/>
-      <AppHeaderSocialsItem iconName="github"/>
+      <AppHeaderSocialsItem iconName="twitter" linkTo="https://twitter.com"/>
+      <AppHeaderSocialsItem iconName="discord" linkTo="https://discord.com"/>
+      <AppHeaderSocialsItem iconName="github" linkTo="https://github.com"/>
     </AppHeaderSocials>
   </AppContentItem>
 </template>

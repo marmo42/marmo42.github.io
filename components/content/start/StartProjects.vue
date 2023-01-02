@@ -4,14 +4,14 @@
     <StartProjectsText>On top of a powerful inbox, issue boards and GitHub sync, Volta is built for speed to become your day-to-day ally. It is built with a set of features that will increase your productivity.</StartProjectsText>
 
     <StartProjectsList>
-      <StartProjectsListItem/>
-      <StartProjectsListItem/>
-      <StartProjectsListItem/>
-      <StartProjectsListItem/>
-      <StartProjectsListItem/>
-      <StartProjectsListItem/>
-      <StartProjectsListItem/>
-      <StartProjectsListItem/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
+      <StartProjectsListItem linkTo="https://discord.com"/>
     </StartProjectsList>
   </AppContentItem>
 </template>

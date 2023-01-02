@@ -1,11 +1,14 @@
 <template>
-  <Icon :name="iconName" class="w-[18px] h-[18px]"/>
+  <NuxtLink :to="linkTo">
+    <Icon :name="iconName" class="w-[18px] h-[18px]"/>
+  </NuxtLink>
 </template>
 
 <script>
 export default {
   props: {
-    iconName: String
+    iconName: String,
+    linkTo: String
   }
 }
 </script>
