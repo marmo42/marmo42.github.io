@@ -3,8 +3,8 @@ const plugin = require('tailwindcss/plugin')
 module.exports = plugin(function({ addComponents }) {
   addComponents({
     '.prose': {
-      '@apply text-gray-200 text-base': {},
-      '@apply font-inter font-normal': {}
+      '@apply font-inter font-normal': {},
+      '@apply text-gray-200 text-base': {}
     },
 
     '.prose-content *': {
@@ -49,12 +49,12 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose hr': {
       '@apply w-full': {},
-      '@apply border-gray-700': {}
+      '@apply border-gray-750': {}
     },
 
     '.prose pre': {
-      '@apply px-[14px] py-3': {},
-      '@apply rounded-md bg-gray-800': {}
+      '@apply p-4': {},
+      '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
     },
 
     '.prose blockquote': {
@@ -67,7 +67,10 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose code': {
-      '@apply font-consolas font-normal': {}
+      '@apply px-[6px] py-1': {},
+      '@apply font-consolas font-normal': {},
+      '@apply text-sm leading-relaxed': {},
+      '@apply rounded-md bg-gray-750': {}
     },
 
     '.prose img': {
