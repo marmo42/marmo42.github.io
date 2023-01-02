@@ -8,7 +8,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content p': {
-      '@apply mb-6': {}
+      '@apply my-8': {}
     },
 
     '.prose h1, h2, h3, h4, h5': {
@@ -57,12 +57,24 @@ module.exports = plugin(function({ addComponents }) {
       '@apply border-gray-750': {}
     },
 
-    '.prose pre': {
-      '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
+    '.prose ul': {
+      '@apply list-disc': {}
     },
 
-    '.prose-content pre': {
-      '@apply my-8 p-4': {},
+    '.prose ol': {
+      '@apply list-decimal': {}
+    },
+
+    '.prose ul, ol': {
+      '@apply list-inside': {}
+    },
+
+    '.prose-content ul, ol': {
+      '@apply my-8': {}
+    },
+
+    '.prose li': {
+      '@apply marker:text-gray-500': {}
     },
 
     '.prose blockquote': {
@@ -71,11 +83,19 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose blockquote *': {
-      '@apply last:mb-0': {},
+      '@apply first:mt-0 last:mb-0': {},
     },
 
     '.prose-content blockquote': {
       '@apply my-8': {},
+    },
+
+    '.prose pre': {
+      '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
+    },
+
+    '.prose-content pre': {
+      '@apply my-8 p-4': {},
     },
 
     '.prose code': {

@@ -2,7 +2,7 @@
   <BlogPostBackground :post="post"/>
   <BlogPostNavbar :post="post"/>
 
-  <AppContentItem class="mt-[500px]">
+  <AppContentItem class="mt-[450px]">
     <BlogPostContent :post="post"/>
   </AppContentItem>
 </template>
