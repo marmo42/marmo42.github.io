@@ -3,10 +3,10 @@
     <AppFooterLabel>© 2023 StylexTV.</AppFooterLabel>
 
     <AppFooterNavbar>
-      <AppFooterNavbarItem>GitHub</AppFooterNavbarItem>
-      <AppFooterNavbarItem>Projects</AppFooterNavbarItem>
-      <AppFooterNavbarItem>Status</AppFooterNavbarItem>
-      <AppFooterNavbarItem>License: <b>GPL</b></AppFooterNavbarItem>
+      <AppFooterNavbarItem linkTo="https://github.com/stylextv">GitHub</AppFooterNavbarItem>
+      <AppFooterNavbarItem linkTo="https://github.com/stylextv?tab=repositories">Projects</AppFooterNavbarItem>
+      <AppFooterNavbarItem linkTo="/api/status">Status</AppFooterNavbarItem>
+      <AppFooterNavbarItem linkTo="https://github.com/StylexTV/stylextv.github.io/blob/main/LICENSE.md">License: <b>GPL</b></AppFooterNavbarItem>
     </AppFooterNavbar>
 
     <div></div>
