@@ -74,7 +74,30 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose li': {
+      '@apply my-4': {},
       '@apply marker:text-gray-750': {}
+    },
+
+    '.prose thead': {
+      '@apply border-b border-gray-600': {}
+    },
+
+    '.prose tr': {
+      '@apply border-b border-dashed border-gray-700': {}
+    },
+
+    '.prose tr *': {
+      '@apply first:pl-0 last:pr-0': {}
+    },
+
+    '.prose th': {
+      '@apply pt-0': {},
+      '@apply font-semibold': {},
+      '@apply text-sm text-gray-400': {}
+    },
+
+    '.prose td, th': {
+      '@apply p-4': {}
     },
 
     '.prose blockquote': {
@@ -113,12 +136,16 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content img': {
-      '@apply shadow-lg shadow-black/30': {}
+      '@apply my-8': {}
     },
 
     '.prose figcaption': {
       '@apply w-full flex justify-center': {},
       '@apply text-gray-400': {}
+    },
+
+    '.prose-content figcaption': {
+      '@apply my-8': {},
     }
   });
 })

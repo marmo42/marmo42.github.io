@@ -97,6 +97,14 @@ This text is ***really important***.
 2. Bar
 3. Baz
 
+## Tables
+
+| Key | Type      | Description |
+|-----|-----------|-------------|
+| 1   | Wonderful | Table       |
+| 2   | Wonderful | Data        |
+| 3   | Wonderful | Website     |
+
 ## Images
 
 <Image page="blog/relaxing-fireplace" path="soothing_scene.png"/>
@@ -108,10 +116,9 @@ The holiday season is upon us, dear reader. It can be a stressful time no matter
 
 We have created a series of videos that will turn any screen into a relaxing Minecraft moment. The Minecraft world may be filled with adventure, but it’s also somewhere to appreciate the beauty of the small things. Like heavy drops of rain falling on the leaves of a mangrove tree. Or how the soft snow drifts down to wrap the Overworld up in a bright, white blanket. Find the five soothing scenes in a playlist on our YouTube channel, listen to the serene soundscapes on Spotify, and download their matching wallpapers to your device.
 
-### Emojies
+## Emojies
 
 > Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
 > Shortcuts (emoticons): :-) :-( 8-) ;)
 
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+See [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
