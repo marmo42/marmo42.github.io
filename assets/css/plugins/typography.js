@@ -122,14 +122,20 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose pre': {
+      '@apply p-4': {},
       '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
     },
 
+    '.prose pre code': {
+      '@apply p-0': {},
+    },
+
     '.prose-content pre': {
-      '@apply my-8 p-4': {},
+      '@apply my-8': {},
     },
 
     '.prose code': {
+      '@apply inline-block': {},
       '@apply font-consolas font-normal': {},
       '@apply text-sm leading-relaxed': {},
       '@apply rounded-md bg-gray-750': {}
