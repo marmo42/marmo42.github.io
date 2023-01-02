@@ -13,6 +13,9 @@ export default defineNuxtConfig({
   content: {
     markdown: {
       toc: { depth: 3 }
+    },
+    highlight: {
+      theme: 'github-dark'
     }
   },
   postcss: {

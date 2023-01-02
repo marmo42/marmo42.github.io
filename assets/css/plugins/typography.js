@@ -7,12 +7,13 @@ module.exports = plugin(function({ addComponents }) {
       '@apply text-gray-200 text-base': {}
     },
 
-    '.prose-content *': {
+    '.prose-content p': {
       '@apply mb-6': {}
     },
 
     '.prose h1, h2, h3, h4, h5': {
-      '@apply text-white-50 tracking-tight': {},
+      '@apply mt-12 mb-8': {},
+      '@apply text-white-50 tracking-tight': {}
     },
 
     '.prose h1, h2, h3': {
@@ -53,13 +54,13 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose pre': {
-      '@apply p-4': {},
+      '@apply my-8 p-4': {},
       '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
     },
 
     '.prose blockquote': {
-      '@apply px-5 py-2': {},
-      '@apply border-l-4 border-white-50': {}
+      '@apply px-6 py-2': {},
+      '@apply border-l border-gray-700': {}
     },
 
     '.prose blockquote *': {
