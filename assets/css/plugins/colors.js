@@ -23,13 +23,16 @@ module.exports = plugin(function({}) {}, {
           300: '#d4d4d8',
           200: '#e4e4e7'
         },
-        'red': '#fe004e',
+        'red': {
+          500: '#ef4444'
+        },
         'blue': {
           500: '#1a62ff',
           400: '#407cff'
         },
-        'pink': '#ec4899',
-        'purple': '#a855f7'
+        'purple': {
+          500: '#a855f7'
+        }
       }
     }
   }
