@@ -125,6 +125,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose pre': {
       '@apply p-4': {},
+      '@apply text-sm leading-relaxed': {},
       '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
     },
 
@@ -138,8 +139,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose code': {
       '@apply inline-block': {},
-      '@apply font-consolas font-normal': {},
-      '@apply text-sm leading-relaxed': {},
+      '@apply font-consolas': {},
       '@apply rounded-md bg-gray-750': {}
     },
 

@@ -44,7 +44,7 @@ It adds a new prose class that you can slap on any block of vanilla HTML content
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
-## Code
+## `Code`
 
 Inline `code`
 
@@ -124,7 +124,7 @@ The holiday season is upon us, dear reader. It can be a stressful time no matter
 
 We have created a series of videos that will turn any screen into a relaxing Minecraft moment. The Minecraft world may be filled with adventure, but it’s also somewhere to appreciate the beauty of the small things. Like heavy drops of rain falling on the leaves of a mangrove tree. Or how the soft snow drifts down to wrap the Overworld up in a bright, white blanket. Find the five soothing scenes in a playlist on our YouTube channel, listen to the serene soundscapes on Spotify, and download their matching wallpapers to your device.
 
-## Emojies
+### Emojies
 
 > Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
 > Shortcuts (emoticons): :-) :-( 8-) ;)
