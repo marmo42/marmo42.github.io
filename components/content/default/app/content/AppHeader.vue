@@ -3,10 +3,10 @@
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>
-      <AppHeaderNavbarItem>Start</AppHeaderNavbarItem>
-      <AppHeaderNavbarItem>Blog</AppHeaderNavbarItem>
-      <AppHeaderNavbarItem>About</AppHeaderNavbarItem>
-      <AppHeaderNavbarItem>Design</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem to="/">Start</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem to="/blog">Blog</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem to="/about">About</AppHeaderNavbarItem>
+      <AppHeaderNavbarItem to="/design">Design</AppHeaderNavbarItem>
     </AppHeaderNavbar>
 
     <AppHeaderSocials>
