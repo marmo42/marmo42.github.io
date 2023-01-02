@@ -11,19 +11,19 @@ module.exports = plugin(function({ addComponents }) {
       '@apply my-8': {}
     },
 
-    '.prose h1, h2, h3, h4, h5': {
+    '.prose :is(h1, h2, h3, h4, h5)': {
       '@apply text-white-50 tracking-tight': {}
     },
 
-    '.prose-content h1, h2, h3, h4, h5': {
+    '.prose-content :is(h1, h2, h3, h4, h5)': {
       '@apply mt-12 mb-8': {},
     },
 
-    '.prose h1, h2, h3': {
+    '.prose :is(h1, h2, h3)': {
       '@apply font-youtube-sans font-bold': {}
     },
 
-    '.prose h4, h5': {
+    '.prose :is(h4, h5)': {
       '@apply font-semibold': {}
     },
 
