@@ -15,10 +15,4 @@
 useHead({
   title: 'Page not found | StylexTV'
 });
-
-const props = defineProps({
-  error: Object
-})
-
-const handleError = () => clearError({ redirect: '/' })
 </script>
