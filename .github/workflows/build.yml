@@ -32,5 +32,7 @@ jobs:
         uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: npx nuxi generate
+      - name: Build Nuxt page
+        run: |
+          yarn install
+          npx nuxi generate
