@@ -7,7 +7,9 @@
 <script>
 export default {
   methods: {
-    onRightClick() {
+    onRightClick(event) {
+      event.preventDefault();
+
       navigateTo('/design');
     }
   }
