@@ -3,13 +3,13 @@
     <h2>Trusted by open-source communities</h2>
 
     <StartToolsList>
-      <StartToolsListItem logoPath="https://github.com/nuxt.png"/>
-      <StartToolsListItem logoPath="https://github.com/vuejs.png"/>
-      <StartToolsListItem logoPath="https://github.com/vueuse.png"/>
-      <StartToolsListItem logoPath="https://github.com/vitejs.png"/>
-      <StartToolsListItem logoPath="https://github.com/unjs.png"/>
-      <StartToolsListItem logoPath="https://github.com/windicss.png"/>
-      <StartToolsListItem logoPath="https://github.com/nuxtlabs.png"/>
+      <StartToolsListItem name="nuxt"/>
+      <StartToolsListItem name="vuejs"/>
+      <StartToolsListItem name="vueuse"/>
+      <StartToolsListItem name="vitejs"/>
+      <StartToolsListItem name="unjs"/>
+      <StartToolsListItem name="windicss"/>
+      <StartToolsListItem name="nuxtlabs"/>
     </StartToolsList>
   </AppContentItem>
 </template>

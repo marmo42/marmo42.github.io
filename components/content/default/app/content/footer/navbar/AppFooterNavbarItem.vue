@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="linkTo" external class="font-inter font-normal text-sm text-gray-400">
+  <NuxtLink :to="linkTo" class="font-inter font-normal text-sm text-gray-400">
     <slot></slot>
   </NuxtLink>
 </template>
