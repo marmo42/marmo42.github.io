@@ -1,9 +1,9 @@
 <template>
   <DesignListItem>
-    <DesignListLogoItemCover :isPrimary="isPrimary" :path="path"/>
+    <DesignListLogoItemCover :logo="logo" :isPrimary="isPrimary"/>
 
     <DesignListItemToolbar>
-      <DesignListItemTitle>{{ name }}</DesignListItemTitle>
+      <DesignListItemTitle>{{ title }}</DesignListItemTitle>
 
       <DesignListItemToolbarLinks>
         <DesignListItemToolbarLink to="/">png</DesignListItemToolbarLink>
@@ -15,9 +15,9 @@
 <script>
 export default {
   props: {
-    name: String,
-    isPrimary: Boolean,
-    path: String
+    logo: String,
+    title: String,
+    isPrimary: Boolean
   }
 }
 </script>

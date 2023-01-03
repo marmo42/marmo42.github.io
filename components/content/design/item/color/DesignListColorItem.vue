@@ -3,7 +3,7 @@
     <DesignListColorItemCover :color="color"/>
 
     <DesignListItemToolbar>
-      <DesignListItemTitle>{{ name }}</DesignListItemTitle>
+      <DesignListItemTitle>{{ title }}</DesignListItemTitle>
 
       <DesignListItemToolbarLinks>
         <DesignListItemToolbarLink to="/">Copy</DesignListItemToolbarLink>
@@ -17,8 +17,8 @@
 <script>
 export default {
   props: {
-    name: String,
-    color: String
+    color: String,
+    title: String
   }
 }
 </script>
