@@ -35,4 +35,5 @@ jobs:
       - name: Build Nuxt page
         run: |
           yarn install
-          npx nuxi generate
+          nuxt build
+          node .output/server/index.mjs
