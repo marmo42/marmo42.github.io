@@ -1,5 +1,5 @@
 <template>
-  <DesignListItemToolbarLink :to="logoPath" external download>png</DesignListItemToolbarLink>
+  <DesignListItemToolbarLink :to="logoPath" external :download="logoName">png</DesignListItemToolbarLink>
 </template>
 
 <script>
@@ -8,6 +8,9 @@ export default {
     logo: String
   },
   computed: {
+    logoName() {
+      return 'logo-' + this.logo
+    },
     logoPath() {
       return '/content/design/assets/images/logos/' + this.logo + '.png';
     }
