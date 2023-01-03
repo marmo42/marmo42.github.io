@@ -6,7 +6,7 @@
       <DesignListItemTitle>{{ title }}</DesignListItemTitle>
 
       <DesignListItemToolbarLinks>
-        <DesignListItemToolbarLink to="/">Copy</DesignListItemToolbarLink>
+        <DesignListColorItemToolbarLink :color="color"/>
       </DesignListItemToolbarLinks>
     </DesignListItemToolbar>
 

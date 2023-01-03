@@ -6,7 +6,7 @@
       <DesignListItemTitle>{{ title }}</DesignListItemTitle>
 
       <DesignListItemToolbarLinks>
-        <DesignListItemToolbarLink to="/">png</DesignListItemToolbarLink>
+        <DesignListLogoItemToolbarLink :logo="logo"/>
       </DesignListItemToolbarLinks>
     </DesignListItemToolbar>
   </DesignListItem>
