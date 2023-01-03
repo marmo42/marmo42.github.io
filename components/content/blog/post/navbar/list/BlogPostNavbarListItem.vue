@@ -1,8 +1,10 @@
 <template>
-  <a :href="'#' + anchor.id" class="py-1 text-sm text-gray-400 hover:text-white-50" :class="{ 'group-hover:ml-3': indent, 'text-blue-400 hover:text-blue-400': isAnchorVisible }">
+  <a :href="'#' + anchor.id" class="py-1 text-sm text-gray-400 hover:text-white-50" :class="{ 'text-blue-400 hover:text-blue-400': isAnchorVisible }">
     <p class="hidden group-hover:block">{{ anchor.text }}</p>
     <p class="block group-hover:hidden">•</p>
   </a>
+
+  <BlogPostNavbarList :anchors="anchor.children"/>
 </template>
 
 <script>
@@ -12,15 +14,10 @@ export default {
   },
   data() {
     return {
-      isAnchorVisible: false,
-      indent: false
+      isAnchorVisible: false
     }
   },
   mounted() {
-    const depth = this.anchor.depth;
-
-    this.indent = depth >= 3;
-
     window.addEventListener('scroll', this.onScroll);
   },
   destroyed() {

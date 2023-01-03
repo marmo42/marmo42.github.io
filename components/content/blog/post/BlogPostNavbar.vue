@@ -1,6 +1,6 @@
 <template>
   <div class="px-4 py-2 top-1/2 right-8 fixed transform -translate-y-1/2 flex flex-col group rounded-lg backdrop-blur-lg bg-gray-750/25 ring-1 ring-gray-750 shadow-lg shadow-black/40">
-    <BlogPostNavbarItem v-for="anchor in anchors" :anchor="anchor"/>
+    <BlogPostNavbarList :anchors="anchors" noIndent/>
   </div>
 </template>
 
