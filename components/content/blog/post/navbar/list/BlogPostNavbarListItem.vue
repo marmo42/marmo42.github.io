@@ -1,8 +1,8 @@
 <template>
-  <p @click="scrollToAnchor" class="py-1 cursor-pointer text-sm text-gray-400 hover:text-white-50" :class="{ 'text-blue-400 hover:text-blue-400': isAnchorVisible }">
+  <a @click="scrollToAnchor" class="py-1 cursor-pointer font-inter font-normal text-sm text-gray-400 hover:text-white-50" :class="{ 'text-blue-400 hover:text-blue-400': isAnchorVisible }">
     <p class="hidden group-hover:block">{{ anchor.text }}</p>
     <p class="block group-hover:hidden">•</p>
-  </p>
+  </a>
 
   <BlogPostNavbarList :anchors="anchor.children"/>
 </template>
