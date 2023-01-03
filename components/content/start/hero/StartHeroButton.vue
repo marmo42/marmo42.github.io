@@ -3,7 +3,7 @@
     <Button class="transition bg-gray-800 hover:bg-opacity-80 text-white">
       <StartHeroButtonIcon/>
 
-      Continue with GitHub
+      Visit my GitHub
     </Button>
   </NuxtLink>
 </template>

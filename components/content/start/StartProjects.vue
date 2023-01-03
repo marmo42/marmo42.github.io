@@ -1,13 +1,13 @@
 <template>
   <AppContentItem class="w-full flex flex-col items-center">
-    <h2>And more features</h2>
-    <StartProjectsText>On top of a powerful inbox, issue boards and GitHub sync, Volta is built for speed to become your day-to-day ally. It is built with a set of features that will increase your productivity.</StartProjectsText>
+    <h2>Some Projects</h2>
+    <StartProjectsText>Below is a carefully compiled list of some of my spare time projects. Most of my work is open source and available for everyone to see on GitHub.</StartProjectsText>
 
     <StartProjectsList>
-      <StartProjectsListItem project="discord" title="Discord" description="Optimized for efficiency with keyboard shortcuts for everything." linkTo="https://discord.com"/>
-      <StartProjectsListItem project="discord" title="Discord" description="Optimized for efficiency with keyboard shortcuts for everything." linkTo="https://discord.com"/>
-      <StartProjectsListItem project="discord" title="Discord" description="Optimized for efficiency with keyboard shortcuts for everything." linkTo="https://discord.com"/>
-      <StartProjectsListItem project="discord" title="Discord" description="Optimized for efficiency with keyboard shortcuts for everything." linkTo="https://discord.com"/>
+      <StartProjectsListItem project="discord" title="Discord" description="A chat app for you to hang out with your friends and relax, as well as meeting new people." linkTo="https://discord.com"/>
+      <StartProjectsListItem project="discord" title="Discord" description="A chat app for you to hang out with your friends and relax, as well as meeting new people." linkTo="https://discord.com"/>
+      <StartProjectsListItem project="discord" title="Discord" description="A chat app for you to hang out with your friends and relax, as well as meeting new people." linkTo="https://discord.com"/>
+      <StartProjectsListItem project="discord" title="Discord" description="A chat app for you to hang out with your friends and relax, as well as meeting new people." linkTo="https://discord.com"/>
     </StartProjectsList>
   </AppContentItem>
 </template>
