@@ -1,5 +1,5 @@
 <template>
-  <DesignListItemToolbarLink @click="copyToClipboard">Copy</DesignListItemToolbarLink>
+  <DesignListItemToolbarLink @click="onClick">Copy</DesignListItemToolbarLink>
 </template>
 
 <script>
@@ -8,7 +8,7 @@ export default {
     color: String
   },
   methods: {
-    copyToClipboard() {
+    onClick() {
       navigator.clipboard.writeText(this.color);
     }
   }
