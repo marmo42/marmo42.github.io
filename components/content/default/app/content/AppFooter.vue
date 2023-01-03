@@ -5,7 +5,6 @@
     <AppFooterNavbar>
       <AppFooterNavbarItem linkTo="https://github.com/stylextv">GitHub</AppFooterNavbarItem>
       <AppFooterNavbarItem linkTo="https://github.com/stylextv?tab=repositories">Projects</AppFooterNavbarItem>
-      <AppFooterNavbarItem linkTo="/api/status">Status</AppFooterNavbarItem>
       <AppFooterNavbarItem linkTo="https://github.com/StylexTV/stylextv.github.io/blob/main/LICENSE.md">License: <b>GPL</b></AppFooterNavbarItem>
     </AppFooterNavbar>
 
