@@ -1,6 +1,6 @@
 <template>
   <DesignListItem>
-    <DesignListLogoItemCover :logo="logo" :isPrimary="isPrimary"/>
+    <DesignListLogoItemCover :logo="logo" :isPrimary="isPrimary" :darkBackground="darkCover"/>
 
     <DesignListItemToolbar>
       <DesignListItemTitle>{{ title }}</DesignListItemTitle>
@@ -17,7 +17,8 @@ export default {
   props: {
     logo: String,
     title: String,
-    isPrimary: Boolean
+    isPrimary: Boolean,
+    darkCover: Boolean
   }
 }
 </script>

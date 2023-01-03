@@ -1,7 +1,7 @@
 <template>
-  <DesignListItemCover class="flex items-center justify-center ring-1 ring-gray-750" :class="isPrimary ? 'bg-gray-900' : 'bg-white'">
+  <DesignListItemCover class="flex items-center justify-center ring-1 ring-gray-750" :class="darkBackground ? 'bg-gray-900' : 'bg-white'">
     <DesignListLogoItemCoverLogo :logo="logo"/>
-    <DesignListLogoItemCoverLabel :isPrimary="isPrimary"/>
+    <DesignListLogoItemCoverLabel :isPrimary="isPrimary" :darkBackground="darkBackground"/>
   </DesignListItemCover>
 </template>
 
@@ -9,7 +9,8 @@
 export default {
   props: {
     logo: String,
-    isPrimary: Boolean
+    isPrimary: Boolean,
+    darkBackground: Boolean
   }
 }
 </script>
