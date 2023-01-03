@@ -2,7 +2,14 @@
   <DesignListItem>
     <DesignListColorItemCover :color="color"/>
 
-    <DesignListItemTitle>{{ name }}</DesignListItemTitle>
+    <DesignListItemToolbar>
+      <DesignListItemTitle>{{ name }}</DesignListItemTitle>
+
+      <DesignListItemToolbarLinks>
+        <DesignListItemToolbarLink to="/">Copy</DesignListItemToolbarLink>
+      </DesignListItemToolbarLinks>
+    </DesignListItemToolbar>
+
     <DesignListItemSubtitle>{{ color }}</DesignListItemSubtitle>
   </DesignListItem>
 </template>

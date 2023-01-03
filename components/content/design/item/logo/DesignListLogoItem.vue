@@ -2,7 +2,13 @@
   <DesignListItem>
     <DesignListLogoItemCover :isPrimary="isPrimary" :path="path"/>
 
-    <DesignListItemTitle>{{ name }}</DesignListItemTitle>
+    <DesignListItemToolbar>
+      <DesignListItemTitle>{{ name }}</DesignListItemTitle>
+
+      <DesignListItemToolbarLinks>
+        <DesignListItemToolbarLink to="/">png</DesignListItemToolbarLink>
+      </DesignListItemToolbarLinks>
+    </DesignListItemToolbar>
   </DesignListItem>
 </template>
 
