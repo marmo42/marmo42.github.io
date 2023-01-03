@@ -1,5 +1,5 @@
 <template>
-  <Embed :path="path" class="youtube-video" allowfullscreen/>
+  <Embed :path="path" class="youtube-video rounded-xl" allowfullscreen/>
 </template>
 
 <script>

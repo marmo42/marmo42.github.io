@@ -116,11 +116,11 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose blockquote *': {
-      '@apply first:mt-0 last:mb-0': {},
+      '@apply first:mt-0 last:mb-0': {}
     },
 
     '.prose-content blockquote': {
-      '@apply my-8': {},
+      '@apply my-8': {}
     },
 
     '.prose pre': {
@@ -130,11 +130,11 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose pre code': {
-      '@apply p-0': {},
+      '@apply p-0': {}
     },
 
     '.prose-content pre': {
-      '@apply my-8': {},
+      '@apply my-8': {}
     },
 
     '.prose code': {
@@ -144,7 +144,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content code': {
-      '@apply px-[6px] py-1': {},
+      '@apply px-[6px] py-1': {}
     },
 
     '.prose-content img': {
@@ -158,20 +158,19 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content figcaption': {
-      '@apply mb-8': {},
+      '@apply mb-8': {}
     },
 
     '.prose-content .embed': {
-      '@apply w-[600px] mx-auto my-12': {},
-      '@apply rounded-xl': {}
+      '@apply w-[600px] mx-auto my-12': {}
     },
 
     '.prose-content .youtube-video': {
-      '@apply aspect-video': {},
+      '@apply aspect-video': {}
     },
 
     '.prose-content .spotify-song': {
-      '@apply h-[152px]': {},
+      '@apply h-[152px]': {}
     }
   });
 })
