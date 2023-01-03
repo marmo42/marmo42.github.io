@@ -1,11 +1,16 @@
 <template>
-  <img :src="'/content/authors/' + author + '/profile_picture.png'" class="w-10 h-10 !my-0 mr-3 !rounded-full"/>
+  <Image page="blog" :path="path" class="w-10 h-10 !my-0 mr-3 !rounded-full"/>
 </template>
 
 <script>
 export default {
   props: {
     author: String
+  },
+  computed: {
+    path() {
+      return 'authors/' + this.author + '.png'
+    }
   }
 }
 </script>
