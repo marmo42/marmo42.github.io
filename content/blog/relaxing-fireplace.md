@@ -48,20 +48,13 @@ It adds a new prose class that you can slap on any block of vanilla HTML content
 
 Inline `code`
 
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-Block code "fences"
-
+```vue
+<template>
+  <main>
+    <ContentDoc path="/about" />
+  </main>
+</template>
 ```
-Sample text here...
-```
-
-Syntax highlighting
 
 ```javascript
 var foo = function (bar) {

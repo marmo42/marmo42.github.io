@@ -8,7 +8,7 @@
       <StartToolsListItem name="vueuse"/>
       <StartToolsListItem name="vitejs"/>
       <StartToolsListItem name="unjs"/>
-      <StartToolsListItem name="windicss"/>
+      <StartToolsListItem name="tailwindlabs"/>
       <StartToolsListItem name="nuxtlabs"/>
     </StartToolsList>
   </AppContentItem>
