@@ -1,8 +1,8 @@
 <template>
-  <a :href="'#' + anchor.id" class="py-1 text-sm text-gray-400 hover:text-white-50" :class="{ 'text-blue-400 hover:text-blue-400': isAnchorVisible }">
+  <p @click="scrollToAnchor" class="py-1 cursor-pointer text-sm text-gray-400 hover:text-white-50" :class="{ 'text-blue-400 hover:text-blue-400': isAnchorVisible }">
     <p class="hidden group-hover:block">{{ anchor.text }}</p>
     <p class="block group-hover:hidden">•</p>
-  </a>
+  </p>
 
   <BlogPostNavbarList :anchors="anchor.children"/>
 </template>
@@ -32,6 +32,11 @@ export default {
       var y2 = Math.min(rect.bottom, window.innerHeight);
 
       this.isAnchorVisible = y1 <= y2;
+    },
+    scrollToAnchor() {
+      const anchorElement = this.getAnchorElement();
+
+      anchorElement.scrollIntoView({ behavior: "smooth" });
     },
     getAnchorElement() {
       const id = this.anchor.id;
