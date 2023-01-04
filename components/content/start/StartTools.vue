@@ -1,6 +1,6 @@
 <template>
   <AppContentItem class="w-full flex flex-col items-center">
-    <h2>Experienced with numerous languages and tools</h2>
+    <StartToolsTitle>Experienced with numerous languages and tools</StartToolsTitle>
 
     <StartToolsList>
       <StartToolsListItem tool="unity" linkTo="https://unity.com"/>
