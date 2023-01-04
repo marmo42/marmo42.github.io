@@ -1,13 +1,15 @@
 ---
-title: Relaxing Beach Escape
+title: Example Post
 author: StylexTV
-description: Relax in Minecraft with Soothing Scene Videos and Wallpapers!
+description: This is an example post for my new portfolio website.
 ---
 The holiday season is upon us, dear reader. It can be a stressful time no matter what you’re celebrating (or not celebrating). But I am here to remind, nay – urge you to relax that mind and unwind for a moment. And lo and behold, I just happen to have some gifts that will help you with that!
 
 We have created a series of videos that will turn any screen into a relaxing Minecraft moment. The Minecraft world may be filled with adventure, but it’s also somewhere to appreciate the beauty of the small things. Like heavy drops of rain falling on the leaves of a mangrove tree. Or how the soft snow drifts down to wrap the Overworld up in a bright, white blanket. Find the five soothing scenes in a playlist on our YouTube channel, listen to the serene soundscapes on Spotify, and download their matching wallpapers to your device.
 
 Our writers are so devoted to their craft that they have sent postcards to help our readers answer the question – which soothing scene speaks to you? And if you feel compelled to answer, let us know in the comment section!
+
+> Greetings from the rainy swamp! I have made myself comfortable beneath a big mangrove tree and have been dozing in and out since I got here. The steady sound of the falling rain coupled with the watchful eyes of the frogs have put me in a state of such comfort, I may never leave. I always suspected it was my destiny to become a swamp creature, and I am very content to lean fully into this lifestyle. This swamp is big enough for the both of us, so make yourself comfortable and enjoy the pitter patter. 
 
 If there’s anything I’ve learned from social media, it’s that 1) Almost nobody knows what “POV” means and 2) Foxes do NOT make good pets. They will scream all night, sleep all day, destroy everything you own, and they will never, ever be potty trained. And yet I still want one. Badly. Not even my Minecraft fox sanctuary will scratch that itch.
 

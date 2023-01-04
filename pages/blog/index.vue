@@ -17,5 +17,5 @@ useHead({
   title: 'Blog'
 });
 
-const highlightedPosts = ['relaxing-fireplace', 'relaxing-fireplace', 'relaxing-fireplace'];
+const highlightedPosts = [ 'example-post' ];
 </script>
