@@ -14,8 +14,12 @@ export default {
   props: {
     project: String,
     title: String,
-    description: String,
-    linkTo: String
+    description: String
+  },
+  computed: {
+    linkTo() {
+      return 'https://github.com/stylextv/' + this.project
+    }
   }
 }
 </script>
