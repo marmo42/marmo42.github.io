@@ -162,7 +162,7 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose-content .embed': {
-      '@apply w-[600px] mx-auto my-12': {}
+      '@apply w-full sm:w-[600px] mx-auto my-12': {}
     },
 
     '.prose-content .youtube-video': {
