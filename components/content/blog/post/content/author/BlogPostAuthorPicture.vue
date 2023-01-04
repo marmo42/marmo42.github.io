@@ -9,7 +9,7 @@ export default {
   },
   computed: {
     path() {
-      return 'authors/' + this.author + '.png'
+      return 'authors/' + this.author.toLowerCase() + '.png'
     }
   }
 }
