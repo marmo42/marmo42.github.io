@@ -1,9 +1,5 @@
 <template>
-  <div class="max-w-4xl prose-content">
-    <h1>{{ post.title }}</h1>
-    <BlogPostDescription>{{ post.description }}</BlogPostDescription>
-    <BlogPostAuthor :author="post.author"/>
-
+  <div class="max-w-4xl mt-12 prose-content">
     <ContentDoc/>
   </div>
 </template>

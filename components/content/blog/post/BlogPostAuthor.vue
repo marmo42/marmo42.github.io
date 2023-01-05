@@ -1,5 +1,5 @@
 <template>
-  <p class="mt-6 flex items-center font-semibold text-gray-400">
+  <p class="w-full flex items-center font-semibold text-gray-600 dark:text-gray-400">
     <BlogPostAuthorPicture :author="author"/>
 
     {{ author }}

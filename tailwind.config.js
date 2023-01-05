@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
@@ -8,9 +9,6 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "./app.vue"
   ],
-  theme: {
-    extend: {}
-  },
   plugins: [
     require('./assets/css/plugins/colors'),
     require('./assets/css/plugins/fonts'),

@@ -4,7 +4,7 @@ module.exports = plugin(function({ addComponents }) {
   addComponents({
     '.prose': {
       '@apply font-inter font-normal': {},
-      '@apply text-gray-200 text-base': {}
+      '@apply text-gray-700 dark:text-gray-200 text-base': {}
     },
 
     '.prose-content p': {
@@ -13,7 +13,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose :is(h1, h2, h3, h4, h5)': {
       '@apply font-bold': {},
-      '@apply text-white-50 tracking-tight': {}
+      '@apply text-gray-800 dark:text-white-50 tracking-tight': {}
     },
 
     '.prose :is(h1, h2, h3)': {

@@ -8,10 +8,10 @@
   }
 
   body {
-    @apply bg-black-900;
+    @apply bg-white dark:bg-black-900;
   }
 
   ::selection {
-    @apply bg-cyan-400/30;
+    @apply dark:bg-cyan-400/30;
   }
 }

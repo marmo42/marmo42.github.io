@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="linkTo" class="rounded-lg flex flex-col-reverse lg:grid grid-cols-12 lg:gap-8 transition bg-gray-750/25 hover:bg-gray-750 ring-1 ring-gray-750 shadow-lg">
+  <NuxtLink :to="linkTo" class="rounded-lg flex flex-col-reverse lg:grid grid-cols-12 lg:gap-8 transition bg-white hover:bg-gray-100 dark:bg-gray-750/25 dark:hover:bg-gray-750 ring-1 ring-gray-750 shadow-lg">
     <StartProjectsListItemText>
       <StartProjectsListItemTitle>{{ title }}</StartProjectsListItemTitle>
       <StartProjectsListItemDescription>{{ description }}</StartProjectsListItemDescription>

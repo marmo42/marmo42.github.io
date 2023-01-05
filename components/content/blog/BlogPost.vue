@@ -1,8 +1,11 @@
 <template>
-  <BlogPostBackground :post="post"/>
   <BlogPostNavbar :post="post"/>
 
-  <AppContentItem class="mt-[50vh]">
+  <AppContentItem class="flex flex-col items-center">
+    <BlogPostCover :post="post"/>
+    <BlogPostTitle>{{ post.title }}</BlogPostTitle>
+    <BlogPostDescription>{{ post.description }}</BlogPostDescription>
+
     <BlogPostContent :post="post"/>
   </AppContentItem>
 </template>

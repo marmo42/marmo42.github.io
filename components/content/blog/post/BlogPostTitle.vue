@@ -1,5 +1,5 @@
 <template>
-  <p class="text-gray-400">
+  <h1 class="w-full">
     <slot></slot>
-  </p>
+  </h1>
 </template>
