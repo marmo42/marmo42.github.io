@@ -39,7 +39,7 @@ jobs:
             .nuxt
           key: ${{ runner.os }}-nuxt-build-${{ hashFiles('.output/public') }}
           restore-keys: |
-            ${{ runner.os }}-nuxt-build-
+            ${{ runner.os }}-nuxt-build
       
       - name: Install dependencies
         run: yarn install
