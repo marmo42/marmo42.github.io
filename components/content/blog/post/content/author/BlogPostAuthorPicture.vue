@@ -7,9 +7,17 @@ export default {
   props: {
     author: String
   },
+  setup(props) {
+    const nameToID = useNameToID();
+    const author = props.author;
+
+    const id = nameToID(author);
+
+    return { id }
+  },
   computed: {
     path() {
-      return 'authors/' + this.author.toLowerCase() + '.png'
+      return 'authors/' + this.id + '.png'
     }
   }
 }
