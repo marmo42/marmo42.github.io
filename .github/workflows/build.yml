@@ -30,6 +30,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      - name: Restore cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            .output/public
+            dist
+            .nuxt
+          key: ${{ runner.os }}-nuxt-build-${{ hashFiles('.output/public') }}
+          restore-keys: |
+            ${{ runner.os }}-nuxt-build-
+      
       - name: Install dependencies
         run: yarn install
       
