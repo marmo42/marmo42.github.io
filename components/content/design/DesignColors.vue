@@ -4,8 +4,8 @@
 
     <DesignList>
       <DesignListColorItem color="#FE004E" title="Red"/>
-      <DesignListColorItem color="#FFFFFF" title="White"/>
-      <DesignListColorItem color="#18181B" title="Gray"/>
+      <DesignListColorItem color="#FFFFFF" isLight title="White"/>
+      <DesignListColorItem color="#18181B" isDark title="Gray"/>
       <DesignListColorItem color="#1A62FF" title="Blue"/>
       <DesignListColorItem color="#EC4899" title="Pink"/>
     </DesignList>

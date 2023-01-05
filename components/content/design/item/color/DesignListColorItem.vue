@@ -1,6 +1,6 @@
 <template>
   <DesignListItem>
-    <DesignListColorItemCover :color="color"/>
+    <DesignListColorItemCover :color="color" :isLight="isLight" :isDark="isDark"/>
 
     <DesignListItemToolbar>
       <DesignListItemTitle>{{ title }}</DesignListItemTitle>
@@ -18,6 +18,8 @@
 export default {
   props: {
     color: String,
+    isLight: Boolean,
+    isDark: Boolean,
     title: String
   }
 }
