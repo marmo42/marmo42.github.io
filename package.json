@@ -14,7 +14,5 @@
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4"
   },
-  "dependencies": {
-    "rellax": "^1.12.1"
-  }
+  "dependencies": {}
 }
