@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="linkTo" class="font-medium text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white-50 text-sm" :class="{ 'text-white-50': isActive }">
+  <NuxtLink :to="linkTo" class="font-medium text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white-50 text-sm" :class="{ 'text-gray-800 dark:text-white-50': isActive }">
     <slot></slot>
   </NuxtLink>
 </template>

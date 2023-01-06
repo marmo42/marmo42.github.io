@@ -56,7 +56,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose hr': {
       '@apply w-full my-8': {},
-      '@apply border-gray-750': {}
+      '@apply border-gray-200 dark:border-gray-750': {}
     },
 
     '.prose ul': {
@@ -77,7 +77,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose li': {
       '@apply my-4': {},
-      '@apply marker:text-gray-750': {}
+      '@apply marker:text-gray-300 dark:marker:text-gray-750': {}
     },
 
     '.prose table': {
@@ -89,11 +89,11 @@ module.exports = plugin(function({ addComponents }) {
     },
 
     '.prose thead': {
-      '@apply border-b border-gray-600': {}
+      '@apply border-b border-gray-300 dark:border-gray-600': {}
     },
 
     '.prose tr': {
-      '@apply border-b border-dashed border-gray-700': {}
+      '@apply border-b border-dashed border-gray-300 dark:border-gray-700': {}
     },
 
     '.prose tr td, th': {
@@ -103,7 +103,7 @@ module.exports = plugin(function({ addComponents }) {
     '.prose th': {
       '@apply pt-0': {},
       '@apply font-semibold': {},
-      '@apply text-gray-400': {}
+      '@apply text-gray-600 dark:text-gray-400': {}
     },
 
     '.prose td, th': {
@@ -112,7 +112,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose blockquote': {
       '@apply px-6 py-2': {},
-      '@apply border-l border-gray-600': {}
+      '@apply border-l border-gray-400 dark:border-gray-600': {}
     },
 
     '.prose blockquote *': {
@@ -126,7 +126,7 @@ module.exports = plugin(function({ addComponents }) {
     '.prose pre': {
       '@apply p-4': {},
       '@apply text-sm leading-relaxed': {},
-      '@apply rounded-lg bg-gray-750 ring-1 ring-1 ring-gray-700': {}
+      '@apply rounded-lg bg-gray-100 dark:bg-gray-750 ring-1 ring-gray-300 dark:ring-gray-700': {}
     },
 
     '.prose pre code': {
@@ -140,7 +140,7 @@ module.exports = plugin(function({ addComponents }) {
     '.prose code': {
       '@apply inline-block': {},
       '@apply font-consolas': {},
-      '@apply rounded-md bg-gray-750': {}
+      '@apply rounded-md bg-gray-100 dark:bg-gray-750': {}
     },
 
     '.prose-content code': {
@@ -154,7 +154,7 @@ module.exports = plugin(function({ addComponents }) {
 
     '.prose figcaption': {
       '@apply w-full flex justify-center': {},
-      '@apply text-gray-400': {}
+      '@apply text-gray-500 dark:text-gray-400': {}
     },
 
     '.prose-content figcaption': {

@@ -1,6 +1,6 @@
 <template>
   <NuxtLink @contextmenu="onRightClick" to="/">
-    <Icon class="w-7 h-7" name="stylextv"/>
+    <Icon name="stylextv" class="w-7 h-7 text-gray-800 dark:text-white-50"/>
   </NuxtLink>
 </template>
 

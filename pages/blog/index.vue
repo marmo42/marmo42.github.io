@@ -1,7 +1,7 @@
 <template>
   <BlogPostList title="Highlighted Posts">
     <ContentQuery v-for="path in highlightedPosts" :path="'/blog/' + path" v-slot="{ data }">
-      <BlogPostListItem :post="data[0]"/>
+      <BlogPostListItem v-if="data" :post="data[0]"/>
     </ContentQuery>
   </BlogPostList>
 

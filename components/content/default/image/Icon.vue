@@ -1,5 +1,5 @@
 <template>
-  <Image :path="path"/>
+  <div :style="style" class="bg-current"></div>
 </template>
 
 <script>
@@ -8,8 +8,15 @@ export default {
     name: String
   },
   computed: {
+    style() {
+      return {
+        maskImage: 'url(' + this.path + ')',
+        maskRepeat: 'no-repeat',
+        maskSize: 'cover'
+      }
+    },
     path() {
-      return 'icons/' + this.name + '.svg'
+      return '/content/default/assets/images/icons/' + this.name + '.svg'
     }
   }
 }

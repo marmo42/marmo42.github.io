@@ -8,6 +8,8 @@
       <AppFooterNavbarItem linkTo="https://github.com/StylexTV/stylextv.github.io/blob/main/LICENSE">License: <b>GPL</b></AppFooterNavbarItem>
     </AppFooterNavbar>
 
-    <div></div>
+    <AppFooterToolbar>
+      <AppFooterToolbarThemeToggle/>
+    </AppFooterToolbar>
   </AppContentItem>
 </template>

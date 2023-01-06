@@ -15,7 +15,10 @@ export default defineNuxtConfig({
       toc: { depth: 3 }
     },
     highlight: {
-      theme: 'github-dark'
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark'
+      }
     }
   },
   postcss: {
